@@ -13,8 +13,8 @@ My research interests are in Empirical Software Engineering and involve **Softwa
 
 ## News
 
-**May 2024** 🇮🇹 A paper was accepted at the 17th International Conference on the Quality of Information and Communications Technology (**QUATIC**): [**Do Static Analysis Tools Improve Awareness and Attitude Toward Secure Software Development?**]()
+**May 2024** ~ A paper was accepted at the 17th International Conference on the Quality of Information and Communications Technology (**QUATIC**): [**Do Static Analysis Tools Improve Awareness and Attitude Toward Secure Software Development?**]()
 {: .notice}
 
-**April 2024** 🇵🇹 I served as student volunteer and presented a paper at the 46th International Conference on Software Engineering (**ICSE**): [**Training for Security: Results from Using a Static Analysis Tool in the Development Pipeline of Web Apps**](https://doi.org/10.1145/3639474.3640073).
+**April 2024** ~ I served as a student volunteer and presented a paper at the 46th International Conference on Software Engineering (**ICSE**): [**Training for Security: Results from Using a Static Analysis Tool in the Development Pipeline of Web Apps**](https://doi.org/10.1145/3639474.3640073).
 {: .notice}
