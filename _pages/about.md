@@ -11,7 +11,7 @@ Hi! I am Sabato Nocera, a PhD student in Computer Science at the [University of 
 
 My research interests are in Empirical Software Engineering and involve **Software Security** and **Software Bill of Materials**.
 
-### News
+## News
 
 **May 2024** 🇮🇹 A paper was accepted at the 17th International Conference on the Quality of Information and Communications Technology (**QUATIC**): [**Do Static Analysis Tools Improve Awareness and Attitude Toward Secure Software Development?**]()
 {: .notice}
