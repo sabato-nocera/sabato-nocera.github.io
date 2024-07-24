@@ -12,7 +12,7 @@ title                    : "Sabato Nocera / Personal Website"
 title_separator          : "-"
 name                     : &name "Sabato Nocera"
 description              : &description "PhD Student @ University of Salerno"
-url                      : https://sabato-nocera.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://sabato-nocera.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "sabato-nocera/sabato-nocera.github.io"
 
@@ -57,7 +57,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : sabato-nocera
+  linkedin         : "sabato-nocera"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -65,7 +65,7 @@ author:
   steam            : # Username
   telegram         : # URL
   tumblr           : # Username
-  twitter          : sabato_nocera
+  twitter          : "sabato_nocera"
   vine             : # Username
   weibo            : # Username
   wikipedia        : # Username
