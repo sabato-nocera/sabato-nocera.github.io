@@ -38,7 +38,6 @@ author:
   semantic         : # URL
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : "https://www.researchgate.net/profile/Sabato-Nocera"
-  dblp             : "https://dblp.org/pid/348/7961.html"
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
