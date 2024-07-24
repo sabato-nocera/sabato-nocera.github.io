@@ -12,9 +12,9 @@ title                    : "Sabato Nocera / Personal Website"
 title_separator          : "-"
 name                     : &name "Sabato Nocera"
 description              : &description "PhD Student @ University of Salerno"
-url                      : "https://sabato-nocera.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://sabato-nocera.github.io/sabato-nocera.github.ia/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "sabato-nocera/sabato-nocera.github.io"
+repository               : "sabato-nocera/sabato-nocera.github.ia"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
