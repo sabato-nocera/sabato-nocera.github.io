@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I am Sabato Nocera, a PhD student in Computer Science at the [University of Salerno](https://web.unisa.it/en/university), Italy. From the same university, I received my master's and bachelor's degrees in Computer Science in September 2022 and 2020, respectively. My research interests are in Empirical Software Engineering and involve **Software Security** and **Software Supply Chain**.
+Hi! I am Sabato Nocera, a PhD student in Computer Science at the [University of Salerno](https://web.unisa.it/en/university), Italy. From the same university, I received my master's and bachelor's degrees in Computer Science in September 2022 and 2020, respectively. My research interests are in **Empirical Software Engineering** and involve **Software Security** and **Software Supply Chain**.
 
 ## News
 
