@@ -11,7 +11,7 @@ Hi! I am Sabato Nocera, a PhD student in Computer Science at the [University of 
 
 ## News
 
-**May 2024** &#126; **QUATIC** &#126; **Paper accepted** at the _17th International Conference on the Quality of Information and Communications Technology_: [**Do Static Analysis Tools Improve Awareness and Attitude Toward Secure Software Development?**]()
+\[**May 2024**\] **Paper accepted** at **QUATIC** (International Conference on the Quality of Information and Communications Technology): [**Do Static Analysis Tools Improve Awareness and Attitude Toward Secure Software Development?**]()
 {: .notice}
 
 **April 2024** &#126; **ICSE** &#126; **Student volunteer** and **presenter** at the _46th International Conference on Software Engineering_: [**Training for Security: Results from Using a Static Analysis Tool in the Development Pipeline of Web Apps**](https://doi.org/10.1145/3639474.3640073).
