@@ -2,7 +2,7 @@
 title: "Training for Security: Planning the Use of a SAT in the Development Pipeline of Web Apps"
 collection: publications
 permalink: /publication/nocera_2023_icse_seet
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
+excerpt: 'Software security, Static analysis tool, Web app'
 date: 2023-07-10
 venue: 'Proceedings of 2023 IEEE/ACM 45th International Conference on Software Engineering: Software Engineering Education and Training (ICSE-SEET)'
 slidesurl: # 'http://academicpages.github.io/files/slides1.pdf'
