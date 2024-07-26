@@ -1,7 +1,7 @@
 ---
 title: "On the Accuracy of GitHub's Dependency Graph"
 collection: publications
-permalink: /publication/bifolco_2024_ease.md
+permalink: /publication/bifolco_2024_ease
 excerpt: 'GitHub, Dependency graph, Empirical study'
 date: 2024-06-18
 venue: 'Proceedings of the 28th International Conference on Evaluation and Assessment in Software Engineering (EASE)'
