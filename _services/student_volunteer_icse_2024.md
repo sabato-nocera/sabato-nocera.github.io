@@ -2,7 +2,7 @@
 title: "Student Volunteer @ International Conference on Software Engineering (ICSE 2024)"
 collection: services
 type: "Student Volunteer"
-permalink: /teaching/student_volunteer_icse_2024
+permalink: /services/student_volunteer_icse_2024
 venue: "46th International Conference on Software Engineering"
 date: 2024-04-14
 location: "Lisbon, Portugal"
