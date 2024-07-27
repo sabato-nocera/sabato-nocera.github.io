@@ -39,6 +39,12 @@ Talks
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
   
+Services
+======
+  <ul>{% for post in site.services reversed %}
+    {% include archive-single-talk-cv.html  %}
+  {% endfor %}</ul>
+  
 Teaching
 ======
   <ul>{% for post in site.teaching reversed %}
