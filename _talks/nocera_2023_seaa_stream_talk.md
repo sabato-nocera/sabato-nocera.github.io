@@ -1,5 +1,5 @@
 ---
-title: "Presentation of 'A Large-scale Fine-grained Empirical Study on Security Concerns in Open-source Software'"
+title: "Presentation @ 'A Large-scale Fine-grained Empirical Study on Security Concerns in Open-source Software'"
 collection: talks
 type: "Paper presentation"
 permalink: /talks/nocera_2023_seaa_stream_talk
