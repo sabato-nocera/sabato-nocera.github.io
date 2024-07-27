@@ -4,7 +4,7 @@ collection: teaching
 type: "Bachelor’s Degree in Computer Science"
 permalink: /teaching/teaching_assistance_tsw
 venue: "University of Salerno, Department of Computer Science"
-date: # 2021-04-09
+date: 2021-04-09
 location: "Fisciano SA, Italy"
 ---
 
