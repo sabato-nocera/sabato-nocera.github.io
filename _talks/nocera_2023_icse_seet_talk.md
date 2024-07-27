@@ -1,5 +1,5 @@
 ---
-title: "Presentation of 'Training for Security: Planning the Use of a SAT in the Development Pipeline of Web Apps'"
+title: "Presentation @ 'Training for Security: Planning the Use of a SAT in the Development Pipeline of Web Apps'"
 collection: talks
 type: "Paper presentation"
 permalink: /talks/nocera_2023_icse_seet_talk
