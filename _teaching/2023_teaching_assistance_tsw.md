@@ -1,5 +1,5 @@
 ---
-title: "Teaching Assistant @ Software Technologies for the Web"
+title: "Teaching Assistant @ Software Technologies for the Web (A.Y. 2022/23)"
 collection: teaching
 type: "Bachelor’s Degree in Computer Science"
 permalink: /teaching/2023_teaching_assistance_tsw
