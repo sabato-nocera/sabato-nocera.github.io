@@ -1,5 +1,5 @@
 ---
-title: "Presentation of 'Managing Vulnerabilities in Software Projects: the Case of NTT Data'"
+title: "Presentation @ 'Managing Vulnerabilities in Software Projects: the Case of NTT Data'"
 collection: talks
 type: "Paper presentation"
 permalink: /talks/nocera_2023_seaa_sm_talk
