@@ -15,11 +15,6 @@ Education
 _Nov. 2022 - Present @ Department of Computer Science, University of Salerno, Fisciano SA, Italy_
 * Advisors: Prof. Rita Francese and Prof. Simone Romano
 
-### Ph.D in Computer Science
-_Nov. 2022 - Present @ Department of Computer Science, University of Salerno, Fisciano SA, Italy_
-* Specialization: Internet of Things and Smart Technologies
-* Advisors: Prof. Rita Francese and Prof. Simone Romano
-
 ### M.Sc. in Computer Science
 _Sept. 2020 - Sept. 2022 @ Department of Computer Science, University of Salerno, Fisciano SA, Italy_
 * Specialization: Software Engineering and IT Management
