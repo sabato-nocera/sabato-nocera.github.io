@@ -1,6 +1,6 @@
 ---
 title: "Student Volunteer @ International Conference on Software Engineering (ICSE 2024)"
-collection: teaching
+collection: services
 type: "Student Volunteer"
 permalink: /teaching/student_volunteer_icse_2024
 venue: "46th International Conference on Software Engineering"
