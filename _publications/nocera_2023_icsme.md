@@ -1,7 +1,7 @@
 ---
 title: "Software Bill of Materials Adoption: A Mining Study from GitHub"
 collection: publications
-permalink: /publication/nocera_2023_icse_seet
+permalink: /publication/nocera_2023_icsme
 excerpt: 'SBOM, Bill of Materials, Software Supply Chain'
 date: 2023-12-11
 venue: 'Proceedings of 2023 IEEE International Conference on Software Maintenance and Evolution (ICSME)'
