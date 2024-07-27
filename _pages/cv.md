@@ -11,35 +11,26 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+### Ph.D in Computer Science
+_Nov. 2022 - Present @ Department of Computer Science, University of Salerno, Fisciano SA, Italy_
+* Advisors: Prof. Rita Francese and Prof. Simone Romano
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+### Ph.D in Computer Science
+_Nov. 2022 - Present @ Department of Computer Science, University of Salerno, Fisciano SA, Italy_
+* Specialization: Internet of Things and Smart Technologies
+* Advisors: Prof. Rita Francese and Prof. Simone Romano
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+### M.Sc. in Computer Science
+_Sept. 2020 - Sept. 2022 @ Department of Computer Science, University of Salerno, Fisciano SA, Italy_
+* Specialization: Software Engineering and IT Management
+* Final Grade: 110/110 cum laude and special commendation by the commission
+* Advisors: Prof. Rita Francese, Prof. Simone Romano, and Prof. Giuseppe Scanniello
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+### B.Sc. in Computer Science
+_Sept. 2017 - Sept. 2020 @ Department of Computer Science, University of Salerno, Fisciano SA, Italy_
+* Specialization: Software Engineering and IT Management
+* Final Grade: 110/110 cum laude
+* Advisors: Prof. Michele Risi
 
 Publications
 ======
