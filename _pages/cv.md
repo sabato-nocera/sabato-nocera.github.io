@@ -27,23 +27,27 @@ _Sept. 2017 - Sept. 2020 @ Department of Computer Science, University of Salerno
 * Final Grade: 110/110 cum laude
 * Advisors: Prof. Michele Risi
 
+
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
+
   
 Talks
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
+
   
 Services
 ======
   <ul>{% for post in site.services reversed %}
     {% include archive-single-cv.html  %}
   {% endfor %}</ul>
+
   
 Teaching
 ======
