@@ -1,5 +1,5 @@
 ---
-title: "Presentation of 'Training for Security: Results from Using a Static Analysis Tool in the Development Pipeline of Web Apps'"
+title: "Presentation @ 'Training for Security: Results from Using a Static Analysis Tool in the Development Pipeline of Web Apps'"
 collection: talks
 type: "Paper presentation"
 permalink: /talks/nocera_2024_icse_seet_talk
