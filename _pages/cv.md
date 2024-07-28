@@ -47,6 +47,12 @@ Services
   <ul>{% for post in site.services reversed %}
     {% include archive-single-cv.html  %}
   {% endfor %}</ul>
+  
+Projects
+======
+  <ul>{% for post in site.projects reversed %}
+    {% include archive-single-cv.html  %}
+  {% endfor %}</ul>
 
   
 Teaching
