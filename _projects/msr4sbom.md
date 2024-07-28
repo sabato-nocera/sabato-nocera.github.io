@@ -1,5 +1,5 @@
 ---
-title: "MSR4SBOM: Mining Software Repositories for enhanced Software Bills of Materials (2023-25)"
+title: "MSR4SBOM: Mining Software Repositories for enhanced Software Bills of Materials (2023-2025)"
 collection: projects
 type: "PRIN"
 permalink: /projects/msr4sbom
