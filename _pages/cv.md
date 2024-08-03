@@ -12,20 +12,19 @@ redirect_from:
 Education
 ======
 ### Ph.D in Computer Science
-_Nov. 2022 - Present @ Department of Computer Science, University of Salerno, Fisciano SA, Italy_
-* Advisors: Prof. Rita Francese and Prof. Simone Romano
+_Nov. 2022 - Present @ Department of Computer Science, [University of Salerno](https://web.unisa.it/en/university), Fisciano SA, Italy_
+* Advisors: [Prof. Rita Francese](https://docenti.unisa.it/004763/home) and [Prof. Simone Romano](https://sites.google.com/view/simoneromano/home?authuser=0)
 
 ### M.Sc. in Computer Science
-_Sept. 2020 - Sept. 2022 @ Department of Computer Science, University of Salerno, Fisciano SA, Italy_
+_Sept. 2020 - Sept. 2022 @ Department of Computer Science, [University of Salerno](https://web.unisa.it/en/university), Fisciano SA, Italy_
 * Specialization: Software Engineering and IT Management
 * Final Grade: 110/110 cum laude and special commendation by the commission
-* Advisors: Prof. Rita Francese, Prof. Simone Romano, and Prof. Giuseppe Scanniello
+* Advisors: [Prof. Rita Francese](https://docenti.unisa.it/004763/home), [Prof. Simone Romano](https://sites.google.com/view/simoneromano/home?authuser=0), and [Prof. Giuseppe Scanniello](https://sites.google.com/view/prof-giuseppe-scanniello/home)
 
 ### B.Sc. in Computer Science
-_Sept. 2017 - Sept. 2020 @ Department of Computer Science, University of Salerno, Fisciano SA, Italy_
-* Specialization: Software Engineering and IT Management
+_Sept. 2017 - Sept. 2020 @ Department of Computer Science, [University of Salerno](https://web.unisa.it/en/university), Fisciano SA, Italy_
 * Final Grade: 110/110 cum laude
-* Advisors: Prof. Michele Risi
+* Advisors: [Prof. Michele Risi](https://docenti.unisa.it/005637/home)
 
 
 Publications
