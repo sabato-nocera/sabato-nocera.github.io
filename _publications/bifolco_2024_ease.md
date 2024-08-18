@@ -2,7 +2,7 @@
 title: "On the Accuracy of GitHub's Dependency Graph"
 collection: publications
 permalink: /publication/bifolco_2024_ease
-excerpt: 'GitHub, Dependency graph, Empirical study'
+excerpt: 'This paper evaluates the accuracy of GitHub’s dependency graph in Java and Python projects, revealing significant inaccuracies that could impact tools like Dependabot and SBOM generators, as well as empirical research outcomes.'
 date: 2024-06-18
 venue: 'Proceedings of the 28th International Conference on Evaluation and Assessment in Software Engineering (EASE)'
 slidesurl: # 'http://academicpages.github.io/files/slides1.pdf'
