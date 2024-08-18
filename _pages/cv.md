@@ -8,8 +8,8 @@ redirect_from:
 ---
 
 {% include base_path %}
-
 <br/>
+
 Education
 ======
 ### Doctor of Philosophy (Ph.D.) in Computer Science
