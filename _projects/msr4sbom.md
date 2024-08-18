@@ -5,6 +5,7 @@ type: "PRIN"
 permalink: /projects/msr4sbom
 venue: ""
 date: 2023-11-30
+end_date: 2025-11-30
 location: ""
 ---
 
