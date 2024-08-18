@@ -3,7 +3,7 @@ title: "Reviewer @ ACM Transactions on Software Engineering and Methodology (TOS
 collection: services
 type: "Reviewer"
 permalink: /services/reviewer_tosem
-venue: "46th International Conference on Software Engineering"
+venue: ""
 date: 2024-04-06
 location: ""
 ---
