@@ -11,7 +11,7 @@ location: ""
 * Research Project of National Interest (PRIN), PNRR, funded by the European Union NEXTGenerationEU and Italian Ministry of the University and Research (MUR).
 * Partners: University of Salerno and University of Sannio
 * Principal Investigator: Prof. Giuseppe Scanniello
-* Personal Role: Participant
+* Role: Team component
 * Website: [**https://msr4sbom.github.io/**](https://msr4sbom.github.io/)
 
 Description
