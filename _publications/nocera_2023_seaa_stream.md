@@ -2,9 +2,9 @@
 title: "A Large-scale Fine-grained Empirical Study on Security Concerns in Open-source Software"
 collection: publications
 permalink: /publication/nocera_2023_seaa_stream
-excerpt: 'Security, Security Concern, Vulnerability, SAST'
-date: 2024-01-01
-venue: 'Proceedings of 2023 49th Euromicro Conference on Software Engineering and Advanced Applications (SEAA)'
+excerpt: 'A study of 164,980 commits from 200 open-source Python projects revealed that security concerns are widely spread and tend to survive over time, highlighting the need for developers to enhance their security practices.'
+date: 2023-09-06
+venue: 'Proceedings of the 49th Euromicro Conference on Software Engineering and Advanced Applications (SEAA)'
 slidesurl: # 'http://academicpages.github.io/files/slides1.pdf'
 paperurl: 'https://doi.org/10.1109/SEAA60479.2023.00069'
 citation: 'S. Nocera, S. Romano, R. Francese and G. Scanniello, "A Large-scale Fine-grained Empirical Study on Security Concerns in Open-source Software," 2023 49th Euromicro Conference on Software Engineering and Advanced Applications (SEAA), Durres, Albania, 2023, pp. 418-425, doi: 10.1109/SEAA60479.2023.00069.'
