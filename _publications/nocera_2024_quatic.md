@@ -2,7 +2,7 @@
 title: "Do Static Analysis Tools Improve Awareness and Attitude Toward Secure Software Development?"
 collection: publications
 permalink: /publication/nocera_2024_quatic
-excerpt: 'This study found that a Static Analysis Tool like SonarCloud can be beneficial in improving students' awareness and attitude toward secure software development, aligning with industry demands.'
+excerpt: "This study found that a Static Analysis Tool like SonarCloud can be beneficial in improving students' awareness and attitude toward secure software development, aligning with industry demands."
 date: 2024-09-11
 venue: 'Proceedings of 17th International Conference on the Quality of Information and Communications Technology (QUATIC)'
 slidesurl: # 'http://academicpages.github.io/files/slides1.pdf'
