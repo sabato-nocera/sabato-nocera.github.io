@@ -1,5 +1,5 @@
 ---
-title: "MSR4SBOM: Mining Software Repositories for enhanced Software Bills of Materials (2023-2025)"
+title: "MSR4SBOM: Mining Software Repositories for enhanced Software Bills of Materials"
 collection: projects
 type: "PRIN"
 permalink: /projects/msr4sbom
@@ -9,7 +9,8 @@ end_date: 2025-11-30
 location: ""
 ---
 
-* Research Project of National Interest (PRIN), PNRR, funded by the European Union NEXTGenerationEU and Italian Ministry of the University and Research (MUR).
+* Research Project of National Interest (PRIN), PNRR, funded by the European Union NEXTGenerationEU and Italian Ministry of the University and Research (MUR)
+* Period: November 2023 - November 2025
 * Partners: University of Salerno and University of Sannio
 * Principal Investigator: Prof. Giuseppe Scanniello
 * Role: Team component
