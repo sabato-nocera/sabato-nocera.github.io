@@ -2,7 +2,7 @@
 title: "If it’s not SBOM, then what? How Italian Practitioners Manage the Software Supply Chain"
 collection: publications
 permalink: /publication/nocera_2024_icsme
-excerpt: 'The paper presents findings from interviews with practitioners in the Italian software industry, revealing low Software Bill of Materials (SBOM) adoption despite high awareness of software supply chain challenges, likely due to limited knowledge of SBOMs and regulations.'
+excerpt: # 'The paper presents findings from interviews with practitioners in the Italian software industry, revealing low Software Bill of Materials (SBOM) adoption despite high awareness of software supply chain challenges, likely due to limited knowledge of SBOMs and regulations.'
 date: 2024-10-08
 venue: 'Proceedings of the 40th International Conference on Software Maintenance and Evolution (ICSME)'
 slidesurl: # 'http://academicpages.github.io/files/slides1.pdf'
