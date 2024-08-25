@@ -2,7 +2,7 @@
 title: "Training for Security: Planning the Use of a SAT in the Development Pipeline of Web Apps"
 collection: publications
 permalink: /publication/nocera_2023_icse_seet
-excerpt: 'The paper reports widespread security concerns in the web apps developed by Computer Science students and outlines a training plan involving the use of a Static Analysis Tool to address these concerns.'
+excerpt: # 'The paper reports widespread security concerns in the web apps developed by Computer Science students and outlines a training plan involving the use of a Static Analysis Tool to address these concerns.'
 date: 2023-05-17
 venue: 'Proceedings of the 45th International Conference on Software Engineering: Software Engineering Education and Training (ICSE-SEET)'
 slidesurl: # 'http://academicpages.github.io/files/slides1.pdf'
