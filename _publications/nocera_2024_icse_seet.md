@@ -2,7 +2,7 @@
 title: "Training for Security: Results from Using a Static Analysis Tool in the Development Pipeline of Web Apps"
 collection: publications
 permalink: /publication/nocera_2024_icse_seet
-excerpt: 'The paper presents the results of a training plan involving the use of a Static Analysis Tool (SonarCloud) by Computer Science students, which led to a significant reduction in security concerns in their web apps, highlighting the importance of integrating security-focused tools in university courses.'
+excerpt: # 'The paper presents the results of a training plan involving the use of a Static Analysis Tool (SonarCloud) by Computer Science students, which led to a significant reduction in security concerns in their web apps, highlighting the importance of integrating security-focused tools in university courses.'
 date: 2024-04-17
 venue: 'Proceedings of the 46th International Conference on Software Engineering: Software Engineering Education and Training (ICSE-SEET)'
 slidesurl: # 'http://academicpages.github.io/files/slides1.pdf'
