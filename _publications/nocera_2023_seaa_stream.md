@@ -2,7 +2,7 @@
 title: "A Large-scale Fine-grained Empirical Study on Security Concerns in Open-source Software"
 collection: publications
 permalink: /publication/nocera_2023_seaa_stream
-excerpt: 'A study of 164,980 commits from 200 open-source Python projects revealed that security concerns are widely spread and tend to survive over time, highlighting the need for developers to enhance their security practices.'
+excerpt: # 'A study of 164,980 commits from 200 open-source Python projects revealed that security concerns are widely spread and tend to survive over time, highlighting the need for developers to enhance their security practices.'
 date: 2023-09-06
 venue: 'Proceedings of the 49th Euromicro Conference on Software Engineering and Advanced Applications (SEAA)'
 slidesurl: # 'http://academicpages.github.io/files/slides1.pdf'
