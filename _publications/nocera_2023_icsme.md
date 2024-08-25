@@ -2,7 +2,7 @@
 title: "Software Bill of Materials Adoption: A Mining Study from GitHub"
 collection: publications
 permalink: /publication/nocera_2023_icsme
-excerpt: 'The paper investigates the adoption of Software Bills of Materials (SBOMs) in open-source GitHub projects, finding that while adoption is currently low, it is increasing. This trend highlights a growing awareness and need for compliance with new software supply chain standards.'
+excerpt: # 'The paper investigates the adoption of Software Bills of Materials (SBOMs) in open-source GitHub projects, finding that while adoption is currently low, it is increasing. This trend highlights a growing awareness and need for compliance with new software supply chain standards.'
 date: 2023-10-04
 venue: 'Proceedings of the 39th International Conference on Software Maintenance and Evolution (ICSME)'
 slidesurl: # 'http://academicpages.github.io/files/slides1.pdf'
