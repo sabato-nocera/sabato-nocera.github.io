@@ -2,7 +2,7 @@
 title: "MSR4SBOM: Mining Software Repositories for enhanced Software Bills of Materials"
 collection: publications
 permalink: /publication/scanniello_esem_2024
-excerpt: 'MSR4SBOM is a project that aims to create an open-source framework that analyzes software repositories and SBOMs to offer context-sensitive recommendations, along with tools, replication packages, and datasets for industrial, academic, and open-source use.'
+excerpt: # 'MSR4SBOM is a project that aims to create an open-source framework that analyzes software repositories and SBOMs to offer context-sensitive recommendations, along with tools, replication packages, and datasets for industrial, academic, and open-source use.'
 date: 2024-10-24
 venue: 'Proceedings of the 18th International Symposium on Empirical Software Engineering and Measurement (ESEM)'
 slidesurl: # 'http://academicpages.github.io/files/slides1.pdf'
