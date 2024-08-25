@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/nocera_2023_ease
 excerpt: # 'The paper reports widespread bug and code smells in the web apps developed by Computer Science students and outlines a training plan involving the use of a Static Analysis Tool to address these quality concerns.'
 date: 2023-06-14
-venue: 'Proceedings of the 27th International Conference on Evaluation and Assessment in Software Engineering'
+venue: 'Proceedings of the 27th International Conference on Evaluation and Assessment in Software Engineering (EASE)'
 slidesurl: # 'http://academicpages.github.io/files/slides1.pdf'
 paperurl: 'https://doi.org/10.1145/3593434.3593957'
 citation: "Sabato Nocera, Rita Francese, and Giuseppe Scanniello. 2023. Training Bachelor Students to Design Better Quality Web Apps: Preliminary Results from a Prospective Empirical Investigation. In Proceedings of the 27th International Conference on Evaluation and Assessment in Software Engineering (EASE '23). Association for Computing Machinery, New York, NY, USA, 465–469. https://doi.org/10.1145/3593434.3593957"
