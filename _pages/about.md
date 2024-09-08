@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Sabato Nocera is a **PhD student** in Computer Science and  **Research Fellow** at the [University of Salerno](https://web.unisa.it/en/university), Italy. He received his master's and bachelor's degrees in Computer Science from the same university in September 2022 and 2020, respectively. My research interests are in **Empirical Software Engineering** and involve **Software Security** and **Software Supply Chain**.
+Sabato Nocera is a **PhD student** in Computer Science and  **Research Fellow** at the [University of Salerno](https://web.unisa.it/en/university), Italy. He received his master's and bachelor's degrees in Computer Science from the same university in September 2022 and 2020, respectively. His research interests are in **Empirical Software Engineering** and involve **Software Security** and **Software Supply Chain**.
 
 ## News
 
