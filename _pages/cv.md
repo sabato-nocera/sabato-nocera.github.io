@@ -10,6 +10,13 @@ redirect_from:
 {% include base_path %}
 <br/>
 
+
+Job Positions
+======
+* ### Research Fellow
+  _September 2024 - Present @ Department of Computer Science, [University of Salerno](https://web.unisa.it/en/university), Fisciano SA, Italy_
+    * Supervisor: [Prof. Giuseppe Scanniello](https://sites.google.com/view/prof-giuseppe-scanniello/home)
+ 
 Education
 ======
 * ### Doctor of Philosophy (Ph.D.) in Computer Science
