@@ -14,7 +14,7 @@ name                     : &name "Sabato Nocera"
 description              : &description "PhD Student @ University of Salerno"
 url                      : "https://sabato-nocera.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "sabato-nocera/sabato-nocera.github.ia"
+repository               : "sabato-nocera/sabato-nocera.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -39,6 +39,7 @@ author:
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : "https://www.researchgate.net/profile/Sabato-Nocera"
   dblp             : "https://dblp.org/pid/348/7961.html"
+  scopus           : "https://www.scopus.com/authid/detail.uri?authorId=58881715500"
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
