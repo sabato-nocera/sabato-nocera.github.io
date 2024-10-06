@@ -40,36 +40,3 @@ Education
 • Advisors: [Prof. Michele Risi](https://docenti.unisa.it/005637/home)
 
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-
-  
-Services
-======
-  <ul>{% for post in site.services reversed %}
-    {% include archive-single-cv.html  %}
-  {% endfor %}</ul>
-  
-Projects
-======
-  <ul>{% for post in site.projects reversed %}
-    {% include archive-single-cv.html  %}
-  {% endfor %}</ul>
-
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-
