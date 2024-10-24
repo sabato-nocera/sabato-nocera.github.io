@@ -13,7 +13,7 @@ Sabato Nocera is a **PhD student** in Computer Science and  **Research Fellow** 
 
 * _September 2024_ - **Web Chair** for the International Workshop on Methodological Issues with Empirical Studies in Software Engineering [**WSESE**](https://conf.researchr.org/home/icse-2025/wsese-2025), co-located with the International Conference on Software Engineering [**ICSE**](https://conf.researchr.org/home/icse-2025)
 
-* _August 2024_ - **Paper accepted** at the International Symposium on Empirical Software Engineering and Measurement [**ESEM**](https://conf.researchr.org/home/esem-2024): **MSR4SBOM: Mining Software Repositories for enhanced Software Bills of Materials**
+* _August 2024_ - **Paper accepted** at the International Symposium on Empirical Software Engineering and Measurement [**ESEM**](https://conf.researchr.org/home/esem-2024): [**MSR4SBOM: Mining Software Repositories for enhanced Software Bills of Materials**](https://dl.acm.org/doi/abs/10.1145/3674805.3695390)
 
 * _August 2024_ - **Paper accepted** at the International Conference on Software Maintenance and Evolution [**ICSME**](https://conf.researchr.org/home/icsme-2024): **If it’s not SBOM, then what? How Italian Practitioners Manage the Software Supply Chain**
 
