@@ -1,7 +1,7 @@
 ---
 layout: archive
-title: "CV"
-permalink: /cv/
+title: "Education"
+permalink: /education/
 author_profile: true
 redirect_from:
   - /resume
@@ -9,17 +9,6 @@ redirect_from:
 
 {% include base_path %}
 
-
-Job Positions
-======
-**Research Fellow**<br/>
-• _September 2024 - Present<br/>_
-• _Department of Computer Science, [University of Salerno](https://web.unisa.it/en/university), Fisciano SA, Italy_<br/>
-• Project: [MSR4SBOM: Mining Software Repositories for enhanced Software Bills of Materials](https://msr4sbom.github.io/)<br/>
-• Supervisor: [Prof. Giuseppe Scanniello](https://sites.google.com/view/prof-giuseppe-scanniello/home)
- 
-Education
-======
 **Doctor of Philosophy (Ph.D.) in Computer Science**<br/>
 • _November 2022 - Present<br/>_
 • _Department of Computer Science, [University of Salerno](https://web.unisa.it/en/university), Fisciano SA, Italy_<br/>
