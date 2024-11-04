@@ -1,5 +1,14 @@
 # main links links
 main:
+  - title: "Education"
+    url: /education/
+    
+  - title: "Job Positions"
+    url: /jobs/
+    
+  - title: "Teaching"
+    url: /teaching/  
+    
   - title: "Publications"
     url: /publications/
 
@@ -12,9 +21,5 @@ main:
   - title: "Projects"
     url: /projects/    
     
-  - title: "Teaching"
-    url: /teaching/  
-        
-  - title: "CV"
-    url: /cv/
+    
     
