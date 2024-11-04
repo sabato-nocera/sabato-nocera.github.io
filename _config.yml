@@ -205,6 +205,12 @@ collections:
   teaching:
     output: true
     permalink: /:collection/:path/
+  education:
+    output: true
+    permalink: /:collection/:path/
+  jobs:
+    output: true
+    permalink: /:collection/:path/
   services:
     output: true
     permalink: /:collection/:path/
@@ -235,6 +241,24 @@ defaults:
   - scope:
       path: ""
       type: teaching
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _jobs
+  - scope:
+      path: ""
+      type: jobs
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _education
+  - scope:
+      path: ""
+      type: education
     values:
       layout: single
       author_profile: true
