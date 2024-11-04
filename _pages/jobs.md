@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-**Research Fellow**
+Research Fellow
 ======
 • _September 2024 - Present<br/>_
 • _Department of Computer Science, [University of Salerno](https://web.unisa.it/en/university), Fisciano SA, Italy_<br/>
