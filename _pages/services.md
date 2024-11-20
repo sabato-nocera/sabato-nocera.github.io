@@ -13,7 +13,7 @@ author_profile: true
 
 
 
-<br/>**Conference Services**<br/>
+### Conference Services
 
 _2025<br/>_
 **Web Chair**<br/>
@@ -25,7 +25,7 @@ _2024<br/>_
   
 
 
-<br/>**Journal Services**<br/>
+### Journal Services
 
 _2024 - Present<br/>_
 **Reviewer**<br/>
