@@ -5,7 +5,7 @@ permalink: /talks/
 author_profile: true
 ---
 
-<br/>**Presentations of paper**<br/>
+## Presentations of paper
 
 _2024<br/>_
 • [**ESEM**](https://conf.researchr.org/home/esem-2024) International Symposium on Empirical Software Engineering and Measurement (Barcelona, Spain 🇪🇸): [**MSR4SBOM: Mining Software Repositories for enhanced Software Bills of Materials**](https://doi.org/10.1145/3674805.3695390)<br/>
