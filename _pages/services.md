@@ -16,17 +16,17 @@ author_profile: true
 <br/>**Conference Services**<br/>
 
 _2025<br/>_
-• **Web Chair**<br/>
-2nd International Workshop on Methodological Issues with Empirical Studies in Software Engineering [**WSESE**](https://conf.researchr.org/home/icse-2025/wsese-2025), co-located with the 47th International Conference on Software Engineering [**ICSE**](https://conf.researchr.org/home/icse-2025) (Ottawa, Ontario, Canada 🇨🇦)<br/>
+**Web Chair**<br/>
+• 2nd International Workshop on Methodological Issues with Empirical Studies in Software Engineering [**WSESE**](https://conf.researchr.org/home/icse-2025/wsese-2025), co-located with the 47th International Conference on Software Engineering [**ICSE**](https://conf.researchr.org/home/icse-2025) (Ottawa, Ontario, Canada 🇨🇦)<br/>
 
 _2024<br/>_
-• **Student Volunteer**<br/>
-46th International Conference on Software Engineering [**ICSE**](https://conf.researchr.org/home/icse-2024) (Lisbon, Portugal 🇵🇹)<br/>
+**Student Volunteer**<br/>
+• 46th International Conference on Software Engineering [**ICSE**](https://conf.researchr.org/home/icse-2024) (Lisbon, Portugal 🇵🇹)<br/>
   
 
 
 <br/>**Journal Services**<br/>
 
 _2024 - Present<br/>_
-• **Reviewer**<br/>
-ACM Transactions on Software Engineering and Methodology [**TOSEM**](https://dl.acm.org/journal/tosem)<br/>
+**Reviewer**<br/>
+• ACM Transactions on Software Engineering and Methodology [**TOSEM**](https://dl.acm.org/journal/tosem)<br/>
