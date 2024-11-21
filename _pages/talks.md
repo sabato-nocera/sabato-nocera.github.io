@@ -4,7 +4,6 @@ title: "Talks"
 permalink: /talks/
 author_profile: true
 ---
-
 ## Presentations of paper
 
 _2024<br/>_
