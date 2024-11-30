@@ -1,7 +1,7 @@
 ---
 layout: archive
-title: "Job Positions"
-permalink: /jobs/
+title: "Employment"
+permalink: /employment/
 author_profile: true
 redirect_from:
   - /resume
