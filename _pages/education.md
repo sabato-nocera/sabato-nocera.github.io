@@ -12,7 +12,6 @@ redirect_from:
 **Doctor of Philosophy (Ph.D.) in Computer Science**<br/>
 _2022 - Present<br/>_
 • _Department of Computer Science, [University of Salerno](https://web.unisa.it/en/university), Fisciano SA, Italy_<br/>
-• Specialization: Internet of Things and Smart Technologies<br/>
 • Advisors: [Prof. Rita Francese](https://docenti.unisa.it/004763/home) and [Prof. Simone Romano](https://sites.google.com/view/simoneromano/home?authuser=0)
 
 **Master’s Degree (M.Sc.) in Computer Science**<br/>
