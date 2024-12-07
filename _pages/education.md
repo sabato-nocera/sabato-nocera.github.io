@@ -25,6 +25,6 @@ _2020 - 2022<br/>_
 _2017 - 2020<br/>_
 • _Department of Computer Science, [University of Salerno](https://web.unisa.it/en/university), Fisciano SA, Italy_<br/>
 • Final Grade: 110/110 cum laude<br/>
-• Advisors: [Prof. Michele Risi](https://docenti.unisa.it/005637/home)
+• Advisor: [Prof. Michele Risi](https://docenti.unisa.it/005637/home)
 
 
