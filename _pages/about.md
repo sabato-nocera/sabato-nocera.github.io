@@ -11,6 +11,8 @@ Sabato Nocera is a **PhD student** in Computer Science and  **Research Fellow** 
 
 ## News
 
+* _January 2025_ - **Paper accepted** at the International Conference on Mining Software Repositories [**MSR**](https://2025.msrconf.org/track/msr-2025-technical-papers): [**Software Composition Analysis and Supply Chain Security in Apache Projects: an Empirical Study**](#)
+
 * _December 2024_ - **Paper accepted** for publication in Elsevier Journal of Systems and Software  [**JSS**](https://www.sciencedirect.com/journal/journal-of-systems-and-software): [**Software engineering education: Results from a training intervention based on SonarCloud when developing web apps**](https://doi.org/10.1016/j.jss.2024.112308)
 
 * _September 2024_ - **Web Chair** for the International Workshop on Methodological Issues with Empirical Studies in Software Engineering [**WSESE**](https://conf.researchr.org/home/icse-2025/wsese-2025), co-located with the International Conference on Software Engineering [**ICSE**](https://conf.researchr.org/home/icse-2025)
