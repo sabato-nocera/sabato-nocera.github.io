@@ -8,6 +8,7 @@ author_profile: true
 
 **Web Chair**<br/>
 _2025<br/>_
+• [**PROFES**](https://conf.researchr.org/home/profes-2025) International Conference on Product-Focused Software Process Improvement (Salerno, Italy 🇮🇹)<br/>
 • [**WSESE**](https://conf.researchr.org/home/icse-2025/wsese-2025) International Workshop on Methodological Issues with Empirical Studies in Software Engineering, co-located with the International Conference on Software Engineering [**ICSE**](https://conf.researchr.org/home/icse-2025) (Ottawa, Ontario, Canada 🇨🇦)<br/>
 
 **Student Volunteer**<br/>
