@@ -32,4 +32,30 @@ an Empirical Study](#). In _2025 IEEE/ACM 22th International Conference on Minin
 
 [C2] **Nocera, S.**, Francese, R., & Scanniello, G. (2023, June). [Training Bachelor Students to Design Better Quality Web Apps: Preliminary Results from a Prospective Empirical Investigation](https://doi.org/10.1145/3593434.3593957). In _Proceedings of the 27th International Conference on Evaluation and Assessment in Software Engineering (EASE)_ (pp. 465-469). ACM.
 
+```markdown
+@inproceedings{Nocera:Ease:2023,
+  author = {Nocera, Sabato and Francese, Rita and Scanniello, Giuseppe},
+  title = {Training Bachelor Students to Design Better Quality Web Apps: Preliminary Results from a Prospective Empirical Investigation},
+  year = {2023},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3593434.3593957},
+  doi = {10.1145/3593434.3593957},
+  booktitle = {Proceedings of the 27th International Conference on Evaluation and Assessment in Software Engineering},
+  pages = {465–469},
+  location = {Oulu, Finland},
+  series = {EASE '23}}
+```
+
 [C1] **Nocera, S.**, Romano, S., Francese, R., & Scanniello, G. (2023, May). [Training for security: planning the use of a SAT in the development pipeline of web Apps](https://doi.org/10.1109/ICSE-SEET58685.2023.00010). In _2023 IEEE/ACM 45th International Conference on Software Engineering: Software Engineering Education and Training (ICSE-SEET)_ (pp. 40-45). IEEE.
+
+```markdown
+@inproceedings{Nocera:IcseSeet:2023,
+  author={Nocera, Sabato and Romano, Simone and Francese, Rita and Scanniello, Giuseppe},
+  booktitle={2023 IEEE/ACM 45th International Conference on Software Engineering: Software Engineering Education and Training (ICSE-SEET)}, 
+  title={Training for Security: Planning the Use of a SAT in the Development Pipeline of Web Apps}, 
+  year={2023},
+  pages={40-45},
+  url = {https://doi.org/10.1109/ICSE-SEET58685.2023.00010},
+  doi={10.1109/ICSE-SEET58685.2023.00010}}
+```
