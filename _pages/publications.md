@@ -12,7 +12,7 @@ author_profile: true
 ## Conference Proceedings
 
 [C11] **Nocera, S.**, Vegas, S., Scanniello, G., & Juristo, N. (2025, April). [Software Composition Analysis and Supply Chain Security in Apache Projects:
-an Empirical Study](#). In _2024 IEEE/ACM 22th International Conference on Mining Software Repositories (MSR)_ (to appear). IEEE.
+an Empirical Study](#). In _2025 IEEE/ACM 22th International Conference on Mining Software Repositories (MSR)_ (to appear). IEEE.
 
 [C10] Scanniello, G., Di Penta, M., Romano, S., Francese, R., **Nocera, S.**, Cassieri, P., Bifolco, D., & Zampetti, F. (2024, October). [MSR4SBOM: Mining software repositories for enhanced software bills of materials](https://doi.org/10.1145/3674805.3695390). In _Proceedings of the 18th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement (ESEM)_ (pp. 589-593). ACM.
 
