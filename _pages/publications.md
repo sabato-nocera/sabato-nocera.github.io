@@ -31,8 +31,9 @@ an Empirical Study](#). In _2025 IEEE/ACM 22th International Conference on Minin
 [C3] **Nocera, S.**, Romano, S., Francese, R., Burlon, R., & Scanniello, G. (2023, September). [Managing Vulnerabilities in Software Projects: the Case of NTT Data](https://doi.org/10.1109/SEAA60479.2023.00046). In _2023 49th Euromicro Conference on Software Engineering and Advanced Applications (SEAA)_ (pp. 247-253). IEEE.
 
 [C2] **Nocera, S.**, Francese, R., & Scanniello, G. (2023, June). [Training Bachelor Students to Design Better Quality Web Apps: Preliminary Results from a Prospective Empirical Investigation](https://doi.org/10.1145/3593434.3593957). In _Proceedings of the 27th International Conference on Evaluation and Assessment in Software Engineering (EASE)_ (pp. 465-469). ACM.
+<button style="all: unset; color: #007bff; cursor: pointer; text-decoration: underline; background: none; border: none;" onclick="toggleSnippet('c2')">BibTeX</button>
 
-```markdown
+<div id="c2" style="display: none; background-color: #f9f9f9; border: 1px solid #ddd; padding: 10px; margin-top: 10px; font-family: 'Courier New', monospace;">
 @inproceedings{Nocera:Ease:2023,
   author = {Nocera, Sabato and Francese, Rita and Scanniello, Giuseppe},
   title = {Training Bachelor Students to Design Better Quality Web Apps: Preliminary Results from a Prospective Empirical Investigation},
@@ -45,7 +46,7 @@ an Empirical Study](#). In _2025 IEEE/ACM 22th International Conference on Minin
   pages = {465–469},
   location = {Oulu, Finland},
   series = {EASE '23}}
-```
+</div>
 
 [C1] **Nocera, S.**, Romano, S., Francese, R., & Scanniello, G. (2023, May). [Training for security: planning the use of a SAT in the development pipeline of web Apps](https://doi.org/10.1109/ICSE-SEET58685.2023.00010). In _2023 IEEE/ACM 45th International Conference on Software Engineering: Software Engineering Education and Training (ICSE-SEET)_ (pp. 40-45). IEEE.
 <button style="all: unset; color: #007bff; cursor: pointer; text-decoration: underline; background: none; border: none;" onclick="toggleSnippet('c1')">BibTeX</button>
