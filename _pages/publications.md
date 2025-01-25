@@ -5,44 +5,6 @@ permalink: /publications/
 author_profile: true
 ---
 
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Publications</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      margin: 20px;
-    }
-    .publication {
-      margin-bottom: 20px;
-    }
-    .snippet {
-      display: none;
-      background-color: #f9f9f9;
-      border: 1px solid #ddd;
-      padding: 10px;
-      margin-top: 10px;
-      font-family: "Courier New", monospace;
-    }
-    .toggle-btn {
-      background-color: #007bff;
-      color: white;
-      border: none;
-      padding: 5px 10px;
-      cursor: pointer;
-      border-radius: 5px;
-    }
-    .toggle-btn:hover {
-      background-color: #0056b3;
-    }
-  </style>
-</head>
-  
-<body>
-
 ## International Journals
 
 [J1]  **Nocera, S.**, Romano, S., Francese, R., & Scanniello, G. (2025). [Software engineering education: Results from a training intervention based on SonarCloud when developing web apps](https://doi.org/10.1016/j.jss.2024.112308). _Journal of Systems and Software_, 222, 112308.
@@ -87,7 +49,7 @@ an Empirical Study](#). In _2025 IEEE/ACM 22th International Conference on Minin
 
 [C1] **Nocera, S.**, Romano, S., Francese, R., & Scanniello, G. (2023, May). [Training for security: planning the use of a SAT in the development pipeline of web Apps](https://doi.org/10.1109/ICSE-SEET58685.2023.00010). In _2023 IEEE/ACM 45th International Conference on Software Engineering: Software Engineering Education and Training (ICSE-SEET)_ (pp. 40-45). IEEE.
 <a href="#" onclick="toggleSnippet('c1')">BibTeX</a>
-<div id="c1" class="bibtex">
+<div id="c1" style="display: none;">
   ```markdown
   @inproceedings{Nocera:IcseSeet:2023,
     author={Nocera, Sabato and Romano, Simone and Francese, Rita and Scanniello, Giuseppe},
@@ -101,15 +63,13 @@ an Empirical Study](#). In _2025 IEEE/ACM 22th International Conference on Minin
 </div>
 
 
-  <script>
-    function toggleSnippet(id) {
-      const snippet = document.getElementById(id);
-      if (snippet.style.display === "none" || snippet.style.display === "") {
-        snippet.style.display = "block";
-      } else {
-        snippet.style.display = "none";
-      }
+<script>
+  function toggleSnippet(id) {
+    const snippet = document.getElementById(id);
+    if (snippet.style.display === "none") {
+      snippet.style.display = "block";
+    } else {
+      snippet.style.display = "none";
     }
-  </script>
-</body>
-</html>
+  }
+</script>
