@@ -48,8 +48,11 @@ an Empirical Study](#). In _2025 IEEE/ACM 22th International Conference on Minin
 ```
 
 [C1] **Nocera, S.**, Romano, S., Francese, R., & Scanniello, G. (2023, May). [Training for security: planning the use of a SAT in the development pipeline of web Apps](https://doi.org/10.1109/ICSE-SEET58685.2023.00010). In _2023 IEEE/ACM 45th International Conference on Software Engineering: Software Engineering Education and Training (ICSE-SEET)_ (pp. 40-45). IEEE.
-<a href="#" onclick="toggleSnippet('c1')">BibTeX</a>
+
+<a href="" onclick="toggleSnippet('c1')">BibTeX</a>
+
 <div id="c1" style="display: none;">
+  
   ```markdown
   @inproceedings{Nocera:IcseSeet:2023,
     author={Nocera, Sabato and Romano, Simone and Francese, Rita and Scanniello, Giuseppe},
@@ -60,6 +63,7 @@ an Empirical Study](#). In _2025 IEEE/ACM 22th International Conference on Minin
     url = {https://doi.org/10.1109/ICSE-SEET58685.2023.00010},
     doi={10.1109/ICSE-SEET58685.2023.00010}}
   ```
+
 </div>
 
 
