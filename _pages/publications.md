@@ -51,7 +51,7 @@ an Empirical Study](#). In _2025 IEEE/ACM 22th International Conference on Minin
 
 <button style="all: unset; color: #007bff; cursor: pointer; text-decoration: underline; background: none; border: none; padding: 0; margin-top: 5px;" onclick="toggleSnippet('c1')">BibTeX</button>
 
-<div id="c1" style="display: none;">
+<div id="c1" style="display: none;"/>
   
 ```markdown
 @inproceedings{Nocera:IcseSeet:2023,
@@ -63,9 +63,6 @@ an Empirical Study](#). In _2025 IEEE/ACM 22th International Conference on Minin
   url = {https://doi.org/10.1109/ICSE-SEET58685.2023.00010},
   doi={10.1109/ICSE-SEET58685.2023.00010}}
 ```
-
-</div>
-
 
 <script>
   function toggleSnippet(id) {
