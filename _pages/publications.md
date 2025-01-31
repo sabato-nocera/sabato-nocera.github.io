@@ -258,7 +258,7 @@ series = {ICSE-SEET '24}
   series = {EASE '23}}
 </div>
 
-<span name ="c1-anchor">[C1]</span> **Nocera, S.**, Romano, S., Francese, R., & Scanniello, G. (2023, May). [Training for security: planning the use of a SAT in the development pipeline of web Apps](https://doi.org/10.1109/ICSE-SEET58685.2023.00010). In _2023 IEEE/ACM 45th International Conference on Software Engineering: Software Engineering Education and Training (**ICSE-SEET**)_ (pp. 40-45). IEEE.
+<span id ="c1-anchor">[C1]</span> **Nocera, S.**, Romano, S., Francese, R., & Scanniello, G. (2023, May). [Training for security: planning the use of a SAT in the development pipeline of web Apps](https://doi.org/10.1109/ICSE-SEET58685.2023.00010). In _2023 IEEE/ACM 45th International Conference on Software Engineering: Software Engineering Education and Training (**ICSE-SEET**)_ (pp. 40-45). IEEE.
 <button style="all: unset; color: #001F54; cursor: pointer; text-decoration: underline; background: none; border: none;" onclick="toggleSnippet('c1-abs')">Abstract</button>
 <button style="all: unset; color: #0263cc; cursor: pointer; text-decoration: underline; background: none; border: none;" onclick="window.open('https://doi.org/10.1109/ICSE-SEET58685.2023.00010', '_blank');">Publisher</button>
 <button style="all: unset; color: #007bff; cursor: pointer; text-decoration: underline; background: none; border: none;" onclick="toggleSnippet('c1')">BibTeX</button>
