@@ -6,6 +6,9 @@ main:
   - title: "Employment"
     url: /employment/
     
+  - title: "Publications"
+    url: /publications/
+    
   - title: "Teaching"
     url: /teaching/  
 
