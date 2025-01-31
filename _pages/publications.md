@@ -49,8 +49,13 @@ an Empirical Study](#). In _2025 IEEE/ACM 22th International Conference on Minin
 </div>
 
 [C10] Scanniello, G., Di Penta, M., Romano, S., Francese, R., **Nocera, S.**, Cassieri, P., Bifolco, D., & Zampetti, F. (2024, October). [MSR4SBOM: Mining software repositories for enhanced software bills of materials](https://doi.org/10.1145/3674805.3695390). In _Proceedings of the 18th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement (ESEM)_ (pp. 589-593). ACM.
+<button style="all: unset; color: #001F54; cursor: pointer; text-decoration: underline; background: none; border: none;" onclick="toggleSnippet('c10-abs')">Abstract</button>
 <button style="all: unset; color: #0263cc; cursor: pointer; text-decoration: underline; background: none; border: none;" onclick="window.open('https://doi.org/10.1145/3674805.3695390', '_blank');">Publisher</button>
 <button style="all: unset; color: #007bff; cursor: pointer; text-decoration: underline; background: none; border: none;" onclick="toggleSnippet('c10')">BibTeX</button>
+
+<div id="c10-abs" style="display: none; background-color: #f9f9f9; border: 1px solid #ddd; padding: 10px; margin-top: 10px;">
+<i>MSR4SBOM (Mining Software Repositories for enhanced Software Bills of Materials) is a project whose main goal is to deliver a framework that analyzes the content of software repositories and SBOMs to provide context-sensitive recommendations. The expected outputs are (i) a set of approaches and tools released as open-source projects, making them exploitable in industrial, academic, and open-source contexts; and (ii) replication packages of our empirical studies and repositories of datasets collected while developing, calibrating, and validating the MSR4SBOM approaches and tools.</i>
+</div>
 
 <div id="c10" style="display: none; background-color: #f9f9f9; border: 1px solid #ddd; padding: 10px; margin-top: 10px; font-family: 'Courier New', monospace;">
 @inproceedings{Scanniello:Esem:2024,
