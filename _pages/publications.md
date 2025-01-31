@@ -8,7 +8,7 @@ author_profile: true
 ## International Journals
 
 [J1]  **Nocera, S.**, Romano, S., Francese, R., & Scanniello, G. (2025). [Software engineering education: Results from a training intervention based on SonarCloud when developing web apps](https://doi.org/10.1016/j.jss.2024.112308). _Journal of Systems and Software_, 222, 112308. Elsevier.
-<button style="all: unset; color: #995D81; cursor: pointer; text-decoration: underline; background: none; border: none;" onclick="toggleSnippet('j1-abs')">Abstract</button>
+<button style="all: unset; color: #001F54; cursor: pointer; text-decoration: underline; background: none; border: none;" onclick="toggleSnippet('j1-abs')">Abstract</button>
 <button style="all: unset; color: #0263cc; cursor: pointer; text-decoration: underline; background: none; border: none;" onclick="window.open('https://doi.org/10.1016/j.jss.2024.112308', '_blank');">Publisher</button>
 <button style="all: unset; color: #007bff; cursor: pointer; text-decoration: underline; background: none; border: none;" onclick="toggleSnippet('j1')">BibTeX</button>
 
