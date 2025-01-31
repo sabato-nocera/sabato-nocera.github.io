@@ -204,7 +204,7 @@ series = {ICSE-SEET '24}
 <div id="c4" style="display: none; background-color: #f9f9f9; border: 1px solid #ddd; padding: 10px; margin-top: 10px; font-family: 'Courier New', monospace;">
 @inproceedings{Nocera:SeaaSm:2023,
   author={Nocera, Sabato and Romano, Simone and Francese, Rita and Scanniello, Giuseppe},
-  booktitle={2023 49th Euromicro Conference on Software Engineering and Advanced Applications (**SEAA**)}, 
+  booktitle={2023 49th Euromicro Conference on Software Engineering and Advanced Applications (SEAA)}, 
   title={A Large-scale Fine-grained Empirical Study on Security Concerns in Open-source Software}, 
   year={2023},
   pages={418-425},
