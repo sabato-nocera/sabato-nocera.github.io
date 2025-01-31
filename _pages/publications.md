@@ -7,7 +7,7 @@ author_profile: true
 
 ## International Journals
 
-[J1]  **Nocera, S.**, Romano, S., Francese, R., & Scanniello, G. (2025). [Software engineering education: Results from a training intervention based on SonarCloud when developing web apps](https://doi.org/10.1016/j.jss.2024.112308). _Journal of Systems and Software_, 222, 112308. Elsevier.
+[J1]  **Nocera, S.**, Romano, S., Francese, R., & Scanniello, G. (2025). [Software engineering education: Results from a training intervention based on SonarCloud when developing web apps](https://doi.org/10.1016/j.jss.2024.112308). _Journal of Systems and Software (**JSS**)_, 222, 112308. Elsevier.
 <button style="all: unset; color: #001F54; cursor: pointer; text-decoration: underline; background: none; border: none;" onclick="toggleSnippet('j1-abs')">Abstract</button>
 <button style="all: unset; color: #0263cc; cursor: pointer; text-decoration: underline; background: none; border: none;" onclick="window.open('https://doi.org/10.1016/j.jss.2024.112308', '_blank');">Publisher</button>
 <button style="all: unset; color: #007bff; cursor: pointer; text-decoration: underline; background: none; border: none;" onclick="toggleSnippet('j1')">BibTeX</button>
@@ -33,7 +33,7 @@ publisher={Elsevier}
 ## Conference Proceedings
 
 [C11] **Nocera, S.**, Vegas, S., Scanniello, G., & Juristo, N. (2025, April). [Software Composition Analysis and Supply Chain Security in Apache Projects:
-an Empirical Study](#). In _2025 IEEE/ACM 22th International Conference on Mining Software Repositories (MSR)_ (to appear). IEEE.
+an Empirical Study](#). In _2025 IEEE/ACM 22th International Conference on Mining Software Repositories (**MSR**)_ (to appear). IEEE.
 <button style="all: unset; color: #0263cc; cursor: pointer; text-decoration: underline; background: none; border: none;">Publisher</button>
 <button style="all: unset; color: #007bff; cursor: pointer; text-decoration: underline; background: none; border: none;" onclick="toggleSnippet('c11')">BibTeX</button>
 
@@ -48,7 +48,7 @@ an Empirical Study](#). In _2025 IEEE/ACM 22th International Conference on Minin
 }
 </div>
 
-[C10] Scanniello, G., Di Penta, M., Romano, S., Francese, R., **Nocera, S.**, Cassieri, P., Bifolco, D., & Zampetti, F. (2024, October). [MSR4SBOM: Mining software repositories for enhanced software bills of materials](https://doi.org/10.1145/3674805.3695390). In _Proceedings of the 18th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement (ESEM)_ (pp. 589-593). ACM.
+[C10] Scanniello, G., Di Penta, M., Romano, S., Francese, R., **Nocera, S.**, Cassieri, P., Bifolco, D., & Zampetti, F. (2024, October). [MSR4SBOM: Mining software repositories for enhanced software bills of materials](https://doi.org/10.1145/3674805.3695390). In _Proceedings of the 18th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement (**ESEM**)_ (pp. 589-593). ACM.
 <button style="all: unset; color: #001F54; cursor: pointer; text-decoration: underline; background: none; border: none;" onclick="toggleSnippet('c10-abs')">Abstract</button>
 <button style="all: unset; color: #0263cc; cursor: pointer; text-decoration: underline; background: none; border: none;" onclick="window.open('https://doi.org/10.1145/3674805.3695390', '_blank');">Publisher</button>
 <button style="all: unset; color: #007bff; cursor: pointer; text-decoration: underline; background: none; border: none;" onclick="toggleSnippet('c10')">BibTeX</button>
@@ -73,7 +73,7 @@ series = {ESEM '24}
 }
 </div>
 
-[C9] **Nocera, S.**, Di Penta, M., Francese, R., Romano, S., & Scanniello, G. (2024, October). [If it's not SBOM, then what? How Italian Practitioners Manage the Software Supply Chain](https://doi.org/10.1109/ICSME58944.2024.00077). In _2024 IEEE International Conference on Software Maintenance and Evolution (ICSME)_ (pp. 730-740). IEEE.
+[C9] **Nocera, S.**, Di Penta, M., Francese, R., Romano, S., & Scanniello, G. (2024, October). [If it's not SBOM, then what? How Italian Practitioners Manage the Software Supply Chain](https://doi.org/10.1109/ICSME58944.2024.00077). In _2024 IEEE International Conference on Software Maintenance and Evolution (**ICSME**)_ (pp. 730-740). IEEE.
 <button style="all: unset; color: #001F54; cursor: pointer; text-decoration: underline; background: none; border: none;" onclick="toggleSnippet('c9-abs')">Abstract</button>
 <button style="all: unset; color: #0263cc; cursor: pointer; text-decoration: underline; background: none; border: none;" onclick="window.open('https://doi.org/10.1109/ICSME58944.2024.00077', '_blank');">Publisher</button>
 <button style="all: unset; color: #007bff; cursor: pointer; text-decoration: underline; background: none; border: none;" onclick="toggleSnippet('c9')">BibTeX</button>
@@ -94,7 +94,7 @@ url = {https://doi.org/10.1109/ICSME58944.2024.00077},
 doi={10.1109/ICSME58944.2024.00077}}
 </div>
 
-[C8] **Nocera, S.**, Romano, S., Di Nucci, D., Francese, R., Palomba, F., & Scanniello, G. (2024, September). [Do Static Analysis Tools Improve Awareness and Attitude Toward Secure Software Development?](https://doi.org/10.1007/978-3-031-70245-7_28). In _International Conference on the Quality of Information and Communications Technology (QUATIC)_ (pp. 399-407). Springer.
+[C8] **Nocera, S.**, Romano, S., Di Nucci, D., Francese, R., Palomba, F., & Scanniello, G. (2024, September). [Do Static Analysis Tools Improve Awareness and Attitude Toward Secure Software Development?](https://doi.org/10.1007/978-3-031-70245-7_28). In _International Conference on the Quality of Information and Communications Technology (**QUATIC**)_ (pp. 399-407). Springer.
 <button style="all: unset; color: #001F54; cursor: pointer; text-decoration: underline; background: none; border: none;" onclick="toggleSnippet('c8-abs')">Abstract</button>
 <button style="all: unset; color: #0263cc; cursor: pointer; text-decoration: underline; background: none; border: none;" onclick="window.open('https://doi.org/10.1007/978-3-031-70245-7_28', '_blank');">Publisher</button>
 <button style="all: unset; color: #007bff; cursor: pointer; text-decoration: underline; background: none; border: none;" onclick="toggleSnippet('c8')">BibTeX</button>
@@ -122,7 +122,7 @@ doi = {10.1007/978-3-031-70245-7_28}
 }
 </div>
 
-[C7] Bifolco, D., **Nocera, S.**, Romano, S., Di Penta, M., Francese, R., & Scanniello, G. (2024, June). [On the Accuracy of GitHub’s Dependency Graph](https://doi.org/10.1145/3661167.3661175). In _Proceedings of the 28th International Conference on Evaluation and Assessment in Software Engineering (EASE)_ (pp. 242-251). ACM.
+[C7] Bifolco, D., **Nocera, S.**, Romano, S., Di Penta, M., Francese, R., & Scanniello, G. (2024, June). [On the Accuracy of GitHub’s Dependency Graph](https://doi.org/10.1145/3661167.3661175). In _Proceedings of the 28th International Conference on Evaluation and Assessment in Software Engineering (**EASE**)_ (pp. 242-251). ACM.
 <button style="all: unset; color: #001F54; cursor: pointer; text-decoration: underline; background: none; border: none;" onclick="toggleSnippet('c7-abs')">Abstract</button>
 <button style="all: unset; color: #0263cc; cursor: pointer; text-decoration: underline; background: none; border: none;" onclick="window.open('https://doi.org/10.1145/3661167.3661175', '_blank');">Publisher</button>
 <button style="all: unset; color: #007bff; cursor: pointer; text-decoration: underline; background: none; border: none;" onclick="toggleSnippet('c7')">BibTeX</button>
@@ -146,7 +146,7 @@ series = {EASE '24}
 }
 </div>
 
-[C6] **Nocera, S.**, Romano, S., Francese, R., & Scanniello, G. (2024, April). [Training for Security: Results from Using a Static Analysis Tool in the Development Pipeline of Web Apps](https://doi.org/10.1145/3639474.3640073). _In Proceedings of the 46th International Conference on Software Engineering: Software Engineering Education and Training (ICSE-SEET)_ (pp. 253-263). ACM.
+[C6] **Nocera, S.**, Romano, S., Francese, R., & Scanniello, G. (2024, April). [Training for Security: Results from Using a Static Analysis Tool in the Development Pipeline of Web Apps](https://doi.org/10.1145/3639474.3640073). _In Proceedings of the 46th International Conference on Software Engineering: Software Engineering Education and Training (**ICSE-SEET**)_ (pp. 253-263). ACM.
 <button style="all: unset; color: #001F54; cursor: pointer; text-decoration: underline; background: none; border: none;" onclick="toggleSnippet('c6-abs')">Abstract</button>
 <button style="all: unset; color: #0263cc; cursor: pointer; text-decoration: underline; background: none; border: none;" onclick="window.open('https://doi.org/10.1145/3639474.3640073', '_blank');">Publisher</button>
 <button style="all: unset; color: #007bff; cursor: pointer; text-decoration: underline; background: none; border: none;" onclick="toggleSnippet('c6')">BibTeX</button>
@@ -171,7 +171,7 @@ series = {ICSE-SEET '24}
 }
 </div>
 
-[C5] **Nocera, S.**, Romano, S., Di Penta, M., Francese, R., & Scanniello, G. (2023, October). [Software bill of materials adoption: a mining study from GitHub](https://doi.org/10.1109/ICSME58846.2023.00016). In _2023 IEEE International Conference on Software Maintenance and Evolution (ICSME)_ (pp. 39-49). IEEE.
+[C5] **Nocera, S.**, Romano, S., Di Penta, M., Francese, R., & Scanniello, G. (2023, October). [Software bill of materials adoption: a mining study from GitHub](https://doi.org/10.1109/ICSME58846.2023.00016). In _2023 IEEE International Conference on Software Maintenance and Evolution (**ICSME**)_ (pp. 39-49). IEEE.
 <button style="all: unset; color: #001F54; cursor: pointer; text-decoration: underline; background: none; border: none;" onclick="toggleSnippet('c5-abs')">Abstract</button>
 <button style="all: unset; color: #0263cc; cursor: pointer; text-decoration: underline; background: none; border: none;" onclick="window.open('https://doi.org/10.1109/ICSME58846.2023.00016', '_blank');">Publisher</button>
 <button style="all: unset; color: #007bff; cursor: pointer; text-decoration: underline; background: none; border: none;" onclick="toggleSnippet('c5')">BibTeX</button>
@@ -192,7 +192,7 @@ series = {ICSE-SEET '24}
   doi={10.1109/ICSME58846.2023.00016}}
 </div>
 
-[C4] **Nocera, S.**, Romano, S., Francese, R., & Scanniello, G. (2023, September). [A large-scale fine-grained empirical study on security concerns in open-source software](https://doi.org/10.1109/SEAA60479.2023.00069). In _2023 49th Euromicro Conference on Software Engineering and Advanced Applications (SEAA)_ (pp. 418-425). IEEE.
+[C4] **Nocera, S.**, Romano, S., Francese, R., & Scanniello, G. (2023, September). [A large-scale fine-grained empirical study on security concerns in open-source software](https://doi.org/10.1109/SEAA60479.2023.00069). In _2023 49th Euromicro Conference on Software Engineering and Advanced Applications (**SEAA**)_ (pp. 418-425). IEEE.
 <button style="all: unset; color: #001F54; cursor: pointer; text-decoration: underline; background: none; border: none;" onclick="toggleSnippet('c4-abs')">Abstract</button>
 <button style="all: unset; color: #0263cc; cursor: pointer; text-decoration: underline; background: none; border: none;" onclick="window.open('https://doi.org/10.1109/SEAA60479.2023.00069', '_blank');">Publisher</button>
 <button style="all: unset; color: #007bff; cursor: pointer; text-decoration: underline; background: none; border: none;" onclick="toggleSnippet('c4')">BibTeX</button>
@@ -204,7 +204,7 @@ series = {ICSE-SEET '24}
 <div id="c4" style="display: none; background-color: #f9f9f9; border: 1px solid #ddd; padding: 10px; margin-top: 10px; font-family: 'Courier New', monospace;">
 @inproceedings{Nocera:SeaaSm:2023,
   author={Nocera, Sabato and Romano, Simone and Francese, Rita and Scanniello, Giuseppe},
-  booktitle={2023 49th Euromicro Conference on Software Engineering and Advanced Applications (SEAA)}, 
+  booktitle={2023 49th Euromicro Conference on Software Engineering and Advanced Applications (**SEAA**)}, 
   title={A Large-scale Fine-grained Empirical Study on Security Concerns in Open-source Software}, 
   year={2023},
   pages={418-425},
@@ -213,7 +213,7 @@ series = {ICSE-SEET '24}
   doi={10.1109/SEAA60479.2023.00069}}
 </div>
 
-[C3] **Nocera, S.**, Romano, S., Francese, R., Burlon, R., & Scanniello, G. (2023, September). [Managing Vulnerabilities in Software Projects: the Case of NTT Data](https://doi.org/10.1109/SEAA60479.2023.00046). In _2023 49th Euromicro Conference on Software Engineering and Advanced Applications (SEAA)_ (pp. 247-253). IEEE.
+[C3] **Nocera, S.**, Romano, S., Francese, R., Burlon, R., & Scanniello, G. (2023, September). [Managing Vulnerabilities in Software Projects: the Case of NTT Data](https://doi.org/10.1109/SEAA60479.2023.00046). In _2023 49th Euromicro Conference on Software Engineering and Advanced Applications (**SEAA**)_ (pp. 247-253). IEEE.
 <button style="all: unset; color: #001F54; cursor: pointer; text-decoration: underline; background: none; border: none;" onclick="toggleSnippet('c3-abs')">Abstract</button>
 <button style="all: unset; color: #0263cc; cursor: pointer; text-decoration: underline; background: none; border: none;" onclick="window.open('https://doi.org/10.1109/SEAA60479.2023.00046', '_blank');">Publisher</button>
 <button style="all: unset; color: #007bff; cursor: pointer; text-decoration: underline; background: none; border: none;" onclick="toggleSnippet('c3')">BibTeX</button>
@@ -234,7 +234,7 @@ series = {ICSE-SEET '24}
   doi={10.1109/SEAA60479.2023.00046}}
 </div>
 
-[C2] **Nocera, S.**, Francese, R., & Scanniello, G. (2023, June). [Training Bachelor Students to Design Better Quality Web Apps: Preliminary Results from a Prospective Empirical Investigation](https://doi.org/10.1145/3593434.3593957). In _Proceedings of the 27th International Conference on Evaluation and Assessment in Software Engineering (EASE)_ (pp. 465-469). ACM.
+[C2] **Nocera, S.**, Francese, R., & Scanniello, G. (2023, June). [Training Bachelor Students to Design Better Quality Web Apps: Preliminary Results from a Prospective Empirical Investigation](https://doi.org/10.1145/3593434.3593957). In _Proceedings of the 27th International Conference on Evaluation and Assessment in Software Engineering (**EASE**)_ (pp. 465-469). ACM.
 <button style="all: unset; color: #001F54; cursor: pointer; text-decoration: underline; background: none; border: none;" onclick="toggleSnippet('c2-abs')">Abstract</button>
 <button style="all: unset; color: #0263cc; cursor: pointer; text-decoration: underline; background: none; border: none;" onclick="window.open('https://doi.org/10.1145/3593434.3593957', '_blank');">Publisher</button>
 <button style="all: unset; color: #007bff; cursor: pointer; text-decoration: underline; background: none; border: none;" onclick="toggleSnippet('c2')">BibTeX</button>
@@ -258,7 +258,7 @@ series = {ICSE-SEET '24}
   series = {EASE '23}}
 </div>
 
-[C1] **Nocera, S.**, Romano, S., Francese, R., & Scanniello, G. (2023, May). [Training for security: planning the use of a SAT in the development pipeline of web Apps](https://doi.org/10.1109/ICSE-SEET58685.2023.00010). In _2023 IEEE/ACM 45th International Conference on Software Engineering: Software Engineering Education and Training (ICSE-SEET)_ (pp. 40-45). IEEE.
+[C1] **Nocera, S.**, Romano, S., Francese, R., & Scanniello, G. (2023, May). [Training for security: planning the use of a SAT in the development pipeline of web Apps](https://doi.org/10.1109/ICSE-SEET58685.2023.00010). In _2023 IEEE/ACM 45th International Conference on Software Engineering: Software Engineering Education and Training (**ICSE-SEET**)_ (pp. 40-45). IEEE.
 <button style="all: unset; color: #001F54; cursor: pointer; text-decoration: underline; background: none; border: none;" onclick="toggleSnippet('c1-abs')">Abstract</button>
 <button style="all: unset; color: #0263cc; cursor: pointer; text-decoration: underline; background: none; border: none;" onclick="window.open('https://doi.org/10.1109/ICSE-SEET58685.2023.00010', '_blank');">Publisher</button>
 <button style="all: unset; color: #007bff; cursor: pointer; text-decoration: underline; background: none; border: none;" onclick="toggleSnippet('c1')">BibTeX</button>
