@@ -41,7 +41,7 @@ an Empirical Study](#). In _2025 IEEE/ACM 22th International Conference on Minin
 @inproceedings{Nocera:Msr:2025,
   title={Software Composition Analysis and Supply Chain Security in Apache Projects: an Empirical Study},
   author={Sabato Nocera and Sira Vegas and Giuseppe Scanniello and Natalia Juristo},
-  booktitle={Proceedings of International Conference on Mining Software Repositories},
+  booktitle={2025 IEEE/ACM 22nd International Conference on Mining Software Repositories (MSR)},
   pages={},
   year={2025},
   publisher={IEEE}
