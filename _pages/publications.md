@@ -83,7 +83,7 @@ series = {ESEM '24}
 </div>
 
 <div id="c9" style="display: none; background-color: #f9f9f9; border: 1px solid #ddd; padding: 10px; margin-top: 10px; font-family: 'Courier New', monospace;">
-@inproceedings{Quatic:Icsme:2024,
+@inproceedings{Nocera:Icsme:2024,
 author={Nocera, Sabato and Di Penta, Massimiliano and Francese, Rita and Romano, Simone and Scanniello, Giuseppe},
 booktitle={2024 IEEE International Conference on Software Maintenance and Evolution (ICSME)}, 
 title={If it's not SBOM, then what? How Italian Practitioners Manage the Software Supply Chain}, 
@@ -104,7 +104,7 @@ doi={10.1109/ICSME58944.2024.00077}}
 </div>
 
 <div id="c8" style="display: none; background-color: #f9f9f9; border: 1px solid #ddd; padding: 10px; margin-top: 10px; font-family: 'Courier New', monospace;">
-@inproceedings{Quatic:Ease:2024,
+@inproceedings{Nocera:Quatic:2024,
 author={Nocera, Sabato
 and Romano, Simone
 and Di Nucci, Dario
@@ -202,7 +202,7 @@ series = {ICSE-SEET '24}
 </div>
 
 <div id="c4" style="display: none; background-color: #f9f9f9; border: 1px solid #ddd; padding: 10px; margin-top: 10px; font-family: 'Courier New', monospace;">
-@inproceedings{Nocera:SeaaSm:2023,
+@inproceedings{Nocera:SeaaStream:2023,
   author={Nocera, Sabato and Romano, Simone and Francese, Rita and Scanniello, Giuseppe},
   booktitle={2023 49th Euromicro Conference on Software Engineering and Advanced Applications (SEAA)}, 
   title={A Large-scale Fine-grained Empirical Study on Security Concerns in Open-source Software}, 
