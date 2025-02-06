@@ -24,8 +24,8 @@ journal = {Journal of Systems and Software},
 volume = {222},
 pages = {112308},
 year = {2025},
-doi = {https://doi.org/10.1016/j.jss.2024.112308},
-url = {https://www.sciencedirect.com/science/article/pii/S0164121224003522},
+doi = {10.1016/j.jss.2024.112308},
+url = {https://doi.org/10.1016/j.jss.2024.112308},
 publisher={Elsevier}
 }
 </div>
