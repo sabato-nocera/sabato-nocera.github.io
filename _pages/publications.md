@@ -17,6 +17,9 @@ Past research suggests that Computer Science (CS) undergraduate students are not
 </div>
 
 <div id="j1" style="display: none; background-color: #f9f9f9; border: 1px solid #ddd; padding: 10px; margin-top: 10px; font-family: 'Courier New', monospace;">
+
+<meta itemprop="description" content="Bibtex">
+
 @article{Nocera:Jss:2025,
 title = {Software engineering education: Results from a training intervention based on SonarCloud when developing web apps},
 author = {Sabato Nocera and Simone Romano and Rita Francese and Giuseppe Scanniello},
@@ -44,6 +47,9 @@ A software supply chain consists of anything needed to develop and deliver a sof
 </div>
 
 <div id="c11" style="display: none; background-color: #f9f9f9; border: 1px solid #ddd; padding: 10px; margin-top: 10px; font-family: 'Courier New', monospace;">
+
+  <meta itemprop="description" content="Bibtex">
+  
 @inproceedings{Nocera:Msr:2025,
   title={Software Composition Analysis and Supply Chain Security in Apache Projects: an Empirical Study},
   author={Sabato Nocera and Sira Vegas and Giuseppe Scanniello and Natalia Juristo},
@@ -64,6 +70,9 @@ MSR4SBOM (Mining Software Repositories for enhanced Software Bills of Materials)
 </div>
 
 <div id="c10" style="display: none; background-color: #f9f9f9; border: 1px solid #ddd; padding: 10px; margin-top: 10px; font-family: 'Courier New', monospace;">
+
+  <meta itemprop="description" content="Bibtex">
+  
 @inproceedings{Scanniello:Esem:2024,
 author = {Scanniello, Giuseppe and Di Penta, Massimiliano and Romano, Simone and Francese, Rita and Nocera, Sabato and Cassieri, Pietro and Bifolco, Daniele and Zampetti, Fiorella},
 title = {MSR4SBOM: Mining Software Repositories for enhanced Software Bills of Materials},
@@ -89,6 +98,9 @@ A Software Bill of Materials (SBOM) describes, in a structured, machine-readable
 </div>
 
 <div id="c9" style="display: none; background-color: #f9f9f9; border: 1px solid #ddd; padding: 10px; margin-top: 10px; font-family: 'Courier New', monospace;">
+
+  <meta itemprop="description" content="Bibtex">
+  
 @inproceedings{Nocera:Icsme:2024,
 author={Nocera, Sabato and Di Penta, Massimiliano and Francese, Rita and Romano, Simone and Scanniello, Giuseppe},
 booktitle={2024 IEEE International Conference on Software Maintenance and Evolution (ICSME)}, 
@@ -110,6 +122,9 @@ We conducted a preliminary qualitative investigation into the Bachelor’s stude
 </div>
 
 <div id="c8" style="display: none; background-color: #f9f9f9; border: 1px solid #ddd; padding: 10px; margin-top: 10px; font-family: 'Courier New', monospace;">
+
+  <meta itemprop="description" content="Bibtex">
+  
 @inproceedings{Nocera:Quatic:2024,
 author={Nocera, Sabato
 and Romano, Simone
@@ -138,6 +153,9 @@ GitHub’s dependency graph shows dependency relationships between repositories.
 </div>
 
 <div id="c7" style="display: none; background-color: #f9f9f9; border: 1px solid #ddd; padding: 10px; margin-top: 10px; font-family: 'Courier New', monospace;">
+
+  <meta itemprop="description" content="Bibtex">
+  
 @inproceedings{Bifolco:Ease:2024,
 author = {Bifolco, Daniele and Nocera, Sabato and Romano, Simone and Di Penta, Massimiliano and Francese, Rita and Scanniello, Giuseppe},
 title = {On the Accuracy of GitHub's Dependency Graph},
@@ -162,6 +180,9 @@ In a previous publication, we presented the results of an assessment aimed at un
 </div>
 
 <div id="c6" style="display: none; background-color: #f9f9f9; border: 1px solid #ddd; padding: 10px; margin-top: 10px; font-family: 'Courier New', monospace;">
+
+  <meta itemprop="description" content="Bibtex">
+  
 @inproceedings{Nocera:IcseSet:2024,
 author = {Nocera, Sabato and Romano, Simone and Francese, Rita and Scanniello, Giuseppe},
 title = {Training for Security: Results from Using a Static Analysis Tool in the Development Pipeline of Web Apps},
@@ -187,6 +208,9 @@ A Software Bill of Materials (SBOM) is a complete, formally structured list of a
 </div>
 
 <div id="c5" style="display: none; background-color: #f9f9f9; border: 1px solid #ddd; padding: 10px; margin-top: 10px; font-family: 'Courier New', monospace;">
+
+  <meta itemprop="description" content="Bibtex">
+  
 @inproceedings{Nocera:Icsme:2023,
   author={Nocera, Sabato and Romano, Simone and Penta, Massimiliano Di and Francese, Rita and Scanniello, Giuseppe},
   booktitle={2023 IEEE International Conference on Software Maintenance and Evolution (ICSME)}, 
@@ -208,6 +232,9 @@ We conducted a large-scale fine-grained empirical study in which we quantitative
 </div>
 
 <div id="c4" style="display: none; background-color: #f9f9f9; border: 1px solid #ddd; padding: 10px; margin-top: 10px; font-family: 'Courier New', monospace;">
+
+  <meta itemprop="description" content="Bibtex">
+  
 @inproceedings{Nocera:SeaaStream:2023,
   author={Nocera, Sabato and Romano, Simone and Francese, Rita and Scanniello, Giuseppe},
   booktitle={2023 49th Euromicro Conference on Software Engineering and Advanced Applications (SEAA)}, 
@@ -229,6 +256,9 @@ Background: Software vulnerabilities are flaws in application source code that c
 </div>
 
 <div id="c3" style="display: none; background-color: #f9f9f9; border: 1px solid #ddd; padding: 10px; margin-top: 10px; font-family: 'Courier New', monospace;">
+
+  <meta itemprop="description" content="Bibtex">
+  
 @inproceedings{Nocera:SeaaSm:2023,
   author={Nocera, Sabato and Romano, Simone and Francese, Rita and Burlon, Riccardo and Scanniello, Giuseppe},
   booktitle={2023 49th Euromicro Conference on Software Engineering and Advanced Applications (SEAA)}, 
@@ -250,6 +280,9 @@ Background: There are a number of academic courses in the Bachelor Program in Co
 </div>
 
 <div id="c2" style="display: none; background-color: #f9f9f9; border: 1px solid #ddd; padding: 10px; margin-top: 10px; font-family: 'Courier New', monospace;">
+  
+  <meta itemprop="description" content="Bibtex">
+  
 @inproceedings{Nocera:Ease:2023,
   author = {Nocera, Sabato and Francese, Rita and Scanniello, Giuseppe},
   title = {Training Bachelor Students to Design Better Quality Web Apps: Preliminary Results from a Prospective Empirical Investigation},
@@ -274,6 +307,9 @@ We designed a prospective empirical investigation to study our STW (Software Tec
 </div>
 
 <div id="c1" style="display: none; background-color: #f9f9f9; border: 1px solid #ddd; padding: 10px; margin-top: 10px; font-family: 'Courier New', monospace;">
+
+  <meta itemprop="description" content="Bibtex">
+  
 @inproceedings{Nocera:IcseSeet:2023,
   author={Nocera, Sabato and Romano, Simone and Francese, Rita and Scanniello, Giuseppe},
   booktitle={2023 IEEE/ACM 45th International Conference on Software Engineering: Software Engineering Education and Training (ICSE-SEET)}, 
