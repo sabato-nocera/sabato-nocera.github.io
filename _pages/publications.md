@@ -49,6 +49,7 @@ A software supply chain consists of anything needed to develop and deliver a sof
 <div id="c11" style="display: none; background-color: #f9f9f9; border: 1px solid #ddd; padding: 10px; margin-top: 10px; font-family: 'Courier New', monospace;">
 
   <meta itemprop="description" content="Bibtex">
+  <meta itemprop="conference_title" content="2025 IEEE/ACM 22th International Conference on Mining Software Repositories (MSR)">
   
 @inproceedings{Nocera:Msr:2025,
   title={Software Composition Analysis and Supply Chain Security in Apache Projects: an Empirical Study},
