@@ -20,3 +20,14 @@ author_profile: true
 | **Reviewer** | 2023 – Present | [**TOSEM**](https://dl.acm.org/journal/tosem) | ACM Transactions on Software Engineering and Methodology |
 
 
+
+<script src="https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js"></script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll("table").forEach(function(table) {
+      new Tablesort(table);
+    });
+  });
+</script>
+
