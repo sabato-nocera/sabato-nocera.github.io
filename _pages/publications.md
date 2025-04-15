@@ -160,6 +160,7 @@ GitHub’s dependency graph shows dependency relationships between repositories.
 @inproceedings{Bifolco:Ease:2024,
 author = {Bifolco, Daniele and Nocera, Sabato and Romano, Simone and Di Penta, Massimiliano and Francese, Rita and Scanniello, Giuseppe},
 title = {On the Accuracy of GitHub's Dependency Graph},
+booktitle = {Proceedings of the 28th International Conference on Evaluation and Assessment in Software Engineering},
 year = {2024},
 publisher = {Association for Computing Machinery},
 address = {New York, NY, USA},
