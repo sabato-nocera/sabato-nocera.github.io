@@ -9,7 +9,7 @@ author_profile: true
 
 | Role              | Years       | Institution                                                                                     | Course |
 |-------------------|-------------|--------------------------------------------------------------------------------------------------|--------|
-| **Teaching Assistant** | 2021 – 2024 | _Department of Computer Science, [University of Salerno](https://web.unisa.it/en/university), Fisciano SA, Italy_ | [_Web Software Technologies_](https://unisa.coursecatalogue.cineca.it/insegnamenti/2023/511551/2017/9999/500153?coorte=2022&schemaid=17311) |
+| **Teaching Assistant** | 2021 – 2024 | 🇮🇹 Department of Computer Science, [University of Salerno](https://web.unisa.it/en/university), Italy | [Web Software Technologies](https://unisa.coursecatalogue.cineca.it/insegnamenti/2023/511551/2017/9999/500153?coorte=2022&schemaid=17311) |
 
 
 <style>
