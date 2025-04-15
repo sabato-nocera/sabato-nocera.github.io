@@ -10,8 +10,6 @@ redirect_from:
 {% include base_path %}
 
 
-## Education
-
 | Degree                                  | Years         | Institution                                                                                     | Final Grade | Advisors |
 |-----------------------------------------|---------------|--------------------------------------------------------------------------------------------------|-------| -------|
 | **Doctor of Philosophy (Ph.D.) in Computer Science** | 2022 – Present | 🇮🇹 Department of Computer Science, [University of Salerno](https://web.unisa.it/en/university), Italy | - | [Prof. Rita Francese](https://docenti.unisa.it/004763/home) and [Prof. Simone Romano](https://sites.google.com/view/simoneromano/home?authuser=0) |
