@@ -17,7 +17,7 @@ Sabato Nocera is a **PhD student** in Computer Science and  **Research Fellow** 
 | Apr. 2025   | [**CauSE 2025**](https://causality-software-engineering.github.io/cause-workshop-2025/) | Paper accepted   | [**Causal Inference Needs More Than Analysis: The Role of Study Design**](#) |
 | Mar. 2025   | [**FSE 2025**](https://conf.researchr.org/track/fse-2025/fse-2025-ideas-visions-and-reflections) | Paper accepted   | [**Missing Threats: Dealing with the Treatment-sensitive Factorial Structure Bias in Empirical Software Engineering**](#) |
 | Jan. 2025 | [**PROFES 2025**](https://conf.researchr.org/home/profes-2025) | Service        | Web Chair |
-| Jan. 2025 | [**MSR 2025**](https://2025.msrconf.org/track/msr-2025-technical-papers) | Paper accepted   | [**Software Composition Analysis and Supply Chain Security in Apache Projects: an Empirical Study**](https://sabato-nocera.github.io/publications/#j1-bibtex) |
+| Jan. 2025 | [**MSR 2025**](https://2025.msrconf.org/track/msr-2025-technical-papers) | Paper accepted   | [**Software Composition Analysis and Supply Chain Security in Apache Projects: an Empirical Study**](https://sabato-nocera.github.io/publications/c11) |
 | Dec. 2024| [**JSS**](https://www.sciencedirect.com/journal/journal-of-systems-and-software) | Paper accepted   | [**Software engineering education: Results from a training intervention based on SonarCloud when developing web apps**](https://doi.org/10.1016/j.jss.2024.112308) |
 | Sept. 2024| [**WSESE 2025**](https://conf.researchr.org/home/icse-2025/wsese-2025), co-located with [**ICSE 2025**](https://conf.researchr.org/home/icse-2025) | Service | Web Chair |
 
