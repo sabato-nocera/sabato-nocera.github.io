@@ -1,0 +1,272 @@
+/* Global Styles */
+body {
+    background-color: #f9f9f9;
+    color: #333;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Header & Navigation */
+.header-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.5em;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.profile-picture {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Main Menu */
+nav.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav.menu ul li {
+    margin-right: 20px;
+}
+
+nav.menu ul li a {
+    color: #0077cc;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+nav.menu ul li a:hover {
+    color: #00509e;
+    text-decoration: underline;
+}
+
+/* Social/Contact Icons with Text */
+nav.social-links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav.social-links ul li {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+nav.social-links ul li a {
+    color: #0077cc;
+    font-size: 1.2em;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    display: flex;
+    align-items: center;
+}
+
+nav.social-links ul li a i {
+    margin-right: 5px;
+}
+
+nav.social-links ul li a span {
+    font-size: 0.9em;
+}
+
+nav.social-links ul li a:hover {
+    color: #00509e;
+}
+
+/* Responsive Navbar Adjustments */
+@media (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Space between stacked items */
+    .profile-picture {
+        margin-bottom: 10px;
+    }
+
+    nav.menu {
+        margin-top: 10px;
+        text-align: center;
+        width: 100%;
+    }
+
+    nav.social-links {
+        margin-top: 10px;
+        text-align: center;
+        width: 100%;
+    }
+
+    nav.menu ul,
+    nav.social-links ul {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    nav.menu ul li,
+    nav.social-links ul li {
+        margin: 5px;
+    }
+}
+
+/* Section Headings & Paragraphs */
+section h2 {
+    color: #00509e;
+    font-weight: 600;
+    border-bottom: 2px solid #00509e;
+    padding-bottom: 0.3em;
+    margin-top: 1.5em;
+}
+
+section p,
+section ol {
+    font-size: 1.1em;
+    margin-bottom: 1.5em;
+}
+
+/* Publication Info Styling */
+.publication-info {
+    margin-bottom: 2em;
+}
+.publication-info ul {
+    list-style: none;
+    padding: 0;
+}
+.publication-info ul li {
+    margin-bottom: 8px;
+    font-size: 1.1em;
+}
+
+/* Enhanced BibTeX Presentation */
+section.bibtex {
+    margin-top: 2em;
+}
+
+section.bibtex h2 {
+    border-bottom: 2px solid #00509e;
+    padding-bottom: 0.3em;
+    margin-bottom: 0.5em;
+}
+
+.bibtex-container {
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1em;
+    overflow-x: auto;
+    font-family: "Courier New", Courier, monospace;
+    color: #333;
+}
+
+.bibtex-container pre {
+    margin: 0;
+}
+
+/* Table Styles */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 1.5em 0;
+}
+
+table thead {
+    background-color: #00509e;
+    color: #fff;
+}
+
+table thead th {
+    padding: 12px 15px;
+    text-align: left;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+table tbody tr {
+    border-bottom: 1px solid #ddd;
+}
+
+table tbody tr:hover {
+    background-color: #e6f2ff;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tbody td {
+    padding: 12px 15px;
+}
+
+/* Table Sorting Indicators */
+th {
+    cursor: pointer;
+    position: relative;
+    padding-right: 20px; /* space for arrow */
+}
+
+th::after {
+    content: '⇅'; /* default arrow */
+    position: absolute;
+    right: 5px;
+    font-size: 0.8em;
+    color: #888;
+}
+
+th.sorted.asc::after {
+    content: '↑';
+}
+
+th.sorted.desc::after {
+    content: '↓';
+}
+
+/* Responsive Tables */
+@media (max-width: 768px) {
+    table,
+    thead,
+    tbody,
+    th,
+    td,
+    tr {
+        display: block;
+    }
+
+    table thead {
+        display: none;
+    }
+
+    table tbody tr {
+        margin-bottom: 1em;
+    }
+
+    table tbody td {
+        padding: 10px;
+        text-align: right;
+        position: relative;
+    }
+
+    table tbody td::before {
+        content: attr(data-label);
+        position: absolute;
+        left: 10px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+        text-align: left;
+        font-weight: bold;
+    }
+}
