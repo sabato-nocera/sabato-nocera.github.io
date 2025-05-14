@@ -279,3 +279,28 @@ th.sorted.desc::after {
         font-weight: bold;
     }
 }
+
+/* Responsive Contact Links Styles */
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* spacing between items */
+    padding: 10px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.contact-item i {
+    margin-right: 8px;
+}
+
+@media (max-width: 600px) {
+    .contact-item {
+        font-size: 0.9rem;
+    }
+}
