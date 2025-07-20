@@ -189,7 +189,7 @@ table tbody tr {
 }
 
 table tbody tr:hover {
-    background-color: #A52A2A;
+    background-color: #ffd9d9;
 }
 
 table tbody tr:nth-child(even) {
