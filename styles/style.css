@@ -260,6 +260,24 @@ th.sorted.desc::after {
     }
 }
 
+/* Responsive Navigation Bar */
+@media (max-width: 768px) {
+    .main-navigation ul {
+        flex-direction: column; /* Stack the menu items */
+        align-items: center;    /* Center-align the items */
+        width: 100%;
+    }
+
+    .main-navigation ul li {
+        margin-right: 0;
+        margin-bottom: 15px; /* Add some spacing between items */
+    }
+
+    .main-navigation ul li:last-child {
+        margin-bottom: 0; /* Remove margin from the last item */
+    }
+}
+
 /* Responsive Contact Links Styles */
 .contact-container {
     display: flex;
