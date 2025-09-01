@@ -15,22 +15,59 @@
     ul { padding-left: 1.2rem; }
     a { color: #2980b9; text-decoration: none; }
     a:hover { text-decoration: underline; }
+.header-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.profile-pic-left {
+  width: 180px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 3px solid #ecf0f1;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.header-text {
+  flex: 1;
+  color: #ecf0f1;
+}
+
+.header-text a {
+  color: #ecf0f1;
+  text-decoration: none;
+}
+
+.header-text a:hover {
+  text-decoration: underline;
+}
     footer { text-align: center; padding: 1rem; background: #2c3e50; color: white; margin-top: 2rem; }
   </style>
 </head>
 <body>
   <header>
-    <h1>Sabato Nocera</h1>
-    <p>Ph.D. Student & Research Fellow in Computer Science | University of Salerno</p>
-    <p>
-	<a href="https://orcid.org/0000-0002-0589-2349" style="color:#ecf0f1;">ORCID</a> | 	
-	<a href="https://scholar.google.com/citations?user=UZxDZQ8AAAAJ" style="color:#ecf0f1;">Google Scholar</a> | 
-	<a href="https://dblp.org/pid/348/7961.html" style="color:#ecf0f1;">DBLP</a> | 
-	<a href="https://www.linkedin.com/in/sabato-nocera" style="color:#ecf0f1;">LinkedIn</a> | 
-	<a href="https://twitter.com/sabato_nocera" style="color:#ecf0f1;">X (Twitter)</a>
-    </p>
-    <p><a href="mailto:snocera@unisa.it" style="color:#ecf0f1;">snocera <em>at</em> unisa <em>dot</em> it</a></p>
-  </header>
+  <div class="header-container">
+    <img src="https://conf.researchr.org/getProfileImage/sabatonocera/451a35d3-7ed5-4eaa-8e73-4b2753828398/small.jpg?1749108401000" alt="Sabato Nocera Profile Picture" class="profile-pic-left">
+    <div class="header-text">
+      <h1>Sabato Nocera</h1>
+      <p>Ph.D. Student & Research Fellow in Computer Science | University of Salerno</p>
+      <p>
+        <a href="https://orcid.org/0000-0002-0589-2349">ORCID</a> | 	
+        <a href="https://scholar.google.com/citations?user=UZxDZQ8AAAAJ">Google Scholar</a> | 
+        <a href="https://dblp.org/pid/348/7961.html">DBLP</a> | 
+        <a href="https://www.linkedin.com/in/sabato-nocera">LinkedIn</a> | 
+        <a href="https://twitter.com/sabato_nocera">X (Twitter)</a>
+      </p>
+      <p><a href="mailto:snocera@unisa.it">snocera <em>at</em> unisa <em>dot</em> it</a></p>
+    </div>
+  </div>
+</header>
+
 
   <main>
     <section>
