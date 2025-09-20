@@ -11,44 +11,45 @@
       font-family: 'Helvetica Neue', sans-serif;
       margin: 0;
       padding: 0;
-      background: #f8f9fa;
+      background: #f8f9fa; /* Light gray background */
       color: #333;
       line-height: 1.6;
     }
 
+    /* Header Styling */
     header {
-      background: #ffffff;
+      background: #ffffff; /* White background */
       color: #333;
-      padding: 1.5rem 3rem;
+      padding: 1.5rem 3rem; /* Reduced padding */
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
       text-align: center;
-      border-bottom: 2px solid #dcdfe1;
+      border-bottom: 2px solid #dcdfe1; /* Soft border for separation */
     }
 
     header h1 {
       margin: 0;
       font-size: 2.5rem;
       font-weight: 700;
-      color: #3498db;
+      color: #3498db; /* Accent blue color */
     }
 
     header h3 {
-      margin: 0.3rem 0;
+      margin: 0.3rem 0; /* Reduced margin */
       font-size: 1.2rem;
-      color: #777;
+      color: #777; /* Light gray color for subheading */
     }
 
     header p {
-      margin: 0.5rem 0;
+      margin: 0.5rem 0; /* Reduced margin */
       font-size: 1rem;
-      color: #555;
+      color: #555; /* Subtle gray color for links */
     }
 
     header a {
-      color: #3498db;
+      color: #3498db; /* Accent blue color */
       text-decoration: none;
       font-weight: 500;
       margin: 0 0.5rem;
@@ -56,22 +57,54 @@
     }
 
     header a:hover {
-      color: #2980b9;
+      color: #2980b9; /* Slightly darker blue on hover */
     }
 
-    /* Add icon size */
-    header i {
-      font-size: 1.4rem;
-      margin: 0 0.5rem;
+    /* Link Styling - Apply blue color globally */
+    a {
+      color: #3498db; /* Blue color matching header */
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    a:hover {
+      color: #2980b9; /* Slightly darker blue on hover */
+    }
+
+    /* Main Content */
+    main {
+      max-width: 1000px;
+      margin: auto;
+      padding: 2rem;
+    }
+
+    section {
+      margin-bottom: 2rem;
+      padding: 1.5rem;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      color: #333;
+      font-size: 1.6rem;
+      font-weight: 600;
+      border-bottom: 2px solid #e8e8e8;
+      padding-bottom: 0.5rem;
+    }
+
+    ul {
+      padding-left: 1.2rem;
     }
 
     footer {
       text-align: center;
       padding: 1rem;
-      background: #f8f9fa;
+      background: #f8f9fa; /* Matching footer with page background */
       color: #333;
       margin-top: 2rem;
-      border-top: 1px solid #dcdfe1;
+      border-top: 1px solid #dcdfe1; /* Light separator line */
     }
   </style>
 </head>
