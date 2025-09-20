@@ -5,46 +5,113 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sabato Nocera</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f6f9; color: #333; line-height: 1.6; }
-    header { background: #2b282f; color: white; padding: 2rem 1rem; text-align: center; }
-    header h1 { margin: 0; font-size: 2.2rem; }
-    header p { margin: 0.5rem 0; font-size: 1.1rem; }
-header img {
-  max-width: 150px;
-  height: auto;
-  border-radius: 50%;
-  margin-bottom: 1rem;
-}
+    body {
+      font-family: 'Helvetica Neue', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f8f9fa; /* Light gray background */
+      color: #333;
+      line-height: 1.6;
+    }
 
-    main { max-width: 1000px; margin: auto; padding: 2rem; }
-    section { margin-bottom: 2rem; padding: 1.5rem; background: white; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
-    h2 { color: #2c3e50; border-bottom: 2px solid #ddd; padding-bottom: 0.5rem; }
-    ul { padding-left: 1.2rem; }
-    a { color: #2980b9; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    footer { text-align: center; padding: 1rem; background: #2c3e50; color: white; margin-top: 2rem; }
+    /* Header Styling */
+    header {
+      background: #ffffff; /* White background */
+      color: #333;
+      padding: 1.5rem 3rem; /* Reduced padding */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      border-bottom: 2px solid #dcdfe1; /* Soft border for separation */
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #3498db; /* Accent blue color */
+    }
+
+    header h3 {
+      margin: 0.3rem 0; /* Reduced margin */
+      font-size: 1.2rem;
+      color: #777; /* Light gray color for subheading */
+    }
+
+    header p {
+      margin: 0.5rem 0; /* Reduced margin */
+      font-size: 1rem;
+      color: #555; /* Subtle gray color for links */
+    }
+
+    header a {
+      color: #3498db; /* Accent blue color */
+      text-decoration: none;
+      font-weight: 500;
+      margin: 0 0.5rem;
+      transition: color 0.3s ease;
+    }
+
+    header a:hover {
+      color: #2980b9; /* Slightly darker blue on hover */
+    }
+
+    /* Main Content */
+    main {
+      max-width: 1000px;
+      margin: auto;
+      padding: 2rem;
+    }
+
+    section {
+      margin-bottom: 2rem;
+      padding: 1.5rem;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      color: #333;
+      font-size: 1.6rem;
+      font-weight: 600;
+      border-bottom: 2px solid #e8e8e8;
+      padding-bottom: 0.5rem;
+    }
+
+    ul {
+      padding-left: 1.2rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #f8f9fa; /* Matching footer with page background */
+      color: #333;
+      margin-top: 2rem;
+      border-top: 1px solid #dcdfe1; /* Light separator line */
+    }
   </style>
 </head>
 <body>
+
   <header>
-		  <img src="https://conf.researchr.org/getProfileImage/sabatonocera/451a35d3-7ed5-4eaa-8e73-4b2753828398/small.jpg?1749108401000">
     <h1>Sabato Nocera</h1>
     <h3>Ph.D. Student & Research Fellow | University of Salerno</h3>
     <p>
-	<a href="https://orcid.org/0000-0002-0589-2349" style="color:#ecf0f1;">ORCID</a> | 	
-	<a href="https://scholar.google.com/citations?user=UZxDZQ8AAAAJ" style="color:#ecf0f1;">Google Scholar</a> | 
-	<a href="https://dblp.org/pid/348/7961.html" style="color:#ecf0f1;">DBLP</a> | 
-	<a href="https://www.linkedin.com/in/sabato-nocera" style="color:#ecf0f1;">LinkedIn</a> | 
-	<a href="https://twitter.com/sabato_nocera" style="color:#ecf0f1;">X (Twitter)</a>
+      <a href="https://orcid.org/0000-0002-0589-2349">ORCID</a> |
+      <a href="https://scholar.google.com/citations?user=UZxDZQ8AAAAJ">Google Scholar</a> |
+      <a href="https://dblp.org/pid/348/7961.html">DBLP</a>
     </p>
-    <p><a href="mailto:snocera@unisa.it" style="color:#ecf0f1;">snocera <em>at</em> unisa <em>dot</em> it</a></p>
+    <p><a href="mailto:snocera@unisa.it">snocera <em>at</em> unisa <em>dot</em> it</a></p>
   </header>
 
   <main>
     <section>
       <h2>About</h2>
-      <p>Sabato Nocera started his <strong>Ph.D. in Computer Science</strong> at the <a href="https://web.unisa.it/en/university">University of Salerno</a>, Italy, in November 2022. He previously earned his Master’s and Bachelor’s degrees in Computer Science from the same university in September 2022 and 2020, respectively. Since September 2024, he has also been a <strong>Research Fellow</strong>, contributing to the project <a href="https://msr4sbom.github.io">Mining Software Repositories for enhanced Software Bills of Materials (MSR4SBOM)</a>. 
-      </p>
+      <p>Sabato Nocera started his <strong>Ph.D. in Computer Science</strong> at the <a href="https://web.unisa.it/en/university">University of Salerno</a>, Italy, in November 2022. He previously earned his Master’s and Bachelor’s degrees in Computer Science from the same university in September 2022 and 2020, respectively. Since September 2024, he has also been a <strong>Research Fellow</strong>, contributing to the project <a href="https://msr4sbom.github.io">Mining Software Repositories for enhanced Software Bills of Materials (MSR4SBOM)</a>.</p>
     </section>
 
     <section>
