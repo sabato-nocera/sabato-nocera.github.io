@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sabato Nocera</title>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
   <style>
     body {
       font-family: 'Helvetica Neue', sans-serif;
@@ -58,9 +57,8 @@
       color: #2980b9;
     }
 
-    /* Add icon size */
     header i {
-      font-size: 1.4rem;
+      font-size: 1.5rem;
       margin: 0 0.5rem;
     }
 
@@ -72,6 +70,19 @@
       margin-top: 2rem;
       border-top: 1px solid #dcdfe1;
     }
+
+    /* SVG styling */
+    header svg {
+      width: 1.6rem;
+      height: 1.6rem;
+      fill: #3498db;
+      margin: 0 0.5rem;
+      transition: fill 0.3s ease;
+    }
+
+    header svg:hover {
+      fill: #2980b9;
+    }
   </style>
 </head>
 <body>
@@ -80,9 +91,20 @@
     <h1>Sabato Nocera</h1>
     <h3>Ph.D. Student & Research Fellow | University of Salerno</h3>
     <p>
-      <a href="https://orcid.org/0000-0002-0589-2349" target="_blank"><i class="fab fa-orcid"></i></a>
-      <a href="https://scholar.google.com/citations?user=UZxDZQ8AAAAJ" target="_blank"><i class="fas fa-book-reader"></i></a>
-      <a href="https://dblp.org/pid/348/7961.html" target="_blank"><i class="fab fa-database"></i></a>
+      <!-- ORCID Icon -->
+      <a href="https://orcid.org/0000-0002-0589-2349" target="_blank">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12s5.37 12 12 12 12-5.37 12-12S18.63 0 12 0zM12 22C6.48 22 2 17.52 2 12S6.48 2 12 2s10 4.48 10 10-4.48 10-10 10zM13 5h-2v5h-1V5H9v11h1v-5h2v5h1V5h-2z"/></svg>
+      </a>
+
+      <!-- Google Scholar Icon -->
+      <a href="https://scholar.google.com/citations?user=UZxDZQ8AAAAJ" target="_blank">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M0 12l5 5 5-5-5-5z"></path></svg>
+      </a>
+
+      <!-- DBLP Icon -->
+      <a href="https://dblp.org/pid/348/7961.html" target="_blank">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 0h-12c-1.104 0-2 .896-2 2v20c0 1.104.896 2 2 2h12c1.104 0 2-.896 2-2v-20c0-1.104-.896-2-2-2zm0 22h-12v-16h12v16zm-10-6h8v-2h-8v2zm0-4h8v-2h-8v2zm0-4h8v-2h-8v2zm-2 0h-2v-2h2v2zm0 4h-2v-2h2v2zm0 6h-2v-2h2v2z"></path></svg>
+      </a>
     </p>
     <p><a href="mailto:snocera@unisa.it">snocera <em>at</em> unisa <em>dot</em> it</a></p>
   </header>
