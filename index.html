@@ -915,8 +915,31 @@
         .pub-badges {
             display: flex;
             align-items: center;
+            flex-wrap: wrap;
+            justify-content: flex-end;
             gap: 0.4rem;
             flex-shrink: 0;
+        }
+
+        .pub-award-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.32rem;
+            padding: 0.24rem 0.56rem;
+            border-radius: 999px;
+            background: linear-gradient(135deg, rgba(242, 204, 143, 0.45), rgba(224, 122, 95, 0.16));
+            border: 1px solid rgba(196, 148, 58, 0.55);
+            color: #8a5a12;
+            font-size: 0.74rem;
+            font-weight: 900;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            white-space: nowrap;
+            flex-shrink: 0;
+        }
+
+        .pub-award-badge i {
+            color: #c4943a;
         }
 
         .pub-type-tag {
@@ -1252,17 +1275,20 @@
             <div class="news-box">
                 <div class="news-title"><i class="fa-solid fa-bullhorn"></i> News</div>
                 <ul class="news-list">
-                    <li><strong>Accepted at ASE 2026 - Research Papers:</strong> <a
+                    <li><strong>Accepted at ASE 2026:</strong> <a
                             href="https://drive.google.com/file/d/1YB134AA-umnRULn9fmt9_brQ1AtZRqRc/view?usp=sharing"
                             target="_blank" rel="noopener">“On the Effects of Customized
                         Configurations of Static Code Analysis Tools: A Prospective Cohort Study of SonarQube
-                        Cloud.”</a>
-                    </li>
-                    <li><strong>Accepted at ASE 2026 - Tools and Datasets:</strong> <a
+                        Cloud”</a> <i>(Research Papers) ~</i> <a
                             href="https://drive.google.com/file/d/1aizqbF3HZJ5GOLSfMnVZvk8KX5m368h8/view?usp=sharing"
                             target="_blank" rel="noopener">“AIRBORNE: Augmented fIne-grained
-                        softwaRe Bill Of mateRials geNerator for stack ovErflow.”</a>
-                    </li>
+                        softwaRe Bill Of mateRials geNerator for stack ovErflow”</a> <i>(Tools and Datasets) ~</i> <a
+                            href="https://drive.google.com/file/d/1Q9m2eJGLXOQx2nTTFoYQGl2o3E8oiHKL/view?usp=sharing"
+                            target="_blank" rel="noopener">“Formal Analysis of Software Bills of Materials with Alloy”</a> <i>(RASE Workshop)</i>.</li>
+                    <li><strong>Outstanding Paper Award at SEAA 2026:</strong> <a
+                            href="https://drive.google.com/file/d/11QlGuuKVBzxQKK0rpcC-VIJqi6qeoVwf/view?usp=sharing"
+                            target="_blank" rel="noopener">“Cryptography Bill of Materials Generation and Consumption: A
+                        Mining Study From GitHub.”</a></li>
                     <li><strong>Accepted at IEEE Transactions on Software Engineering (TSE):</strong> <a
                             href="https://doi.org/10.1109/TSE.2026.3713676" target="_blank" rel="noopener">“Investigating
                         Causality in Software Repositories Using Cohort-Based Methods.”</a></li>
@@ -1272,12 +1298,8 @@
                     <li><strong>Accepted at Empirical Software Engineering (EMSE):</strong> <a
                             href="https://doi.org/10.1007/s10664-026-10890-8" target="_blank" rel="noopener">“Security
                         Issues in Python Open-Source Software: A Mining Study From GitHub.”</a></li>
-                    <li><strong>Accepted at SEAA 2026:</strong> <a
-                            href="https://drive.google.com/file/d/11QlGuuKVBzxQKK0rpcC-VIJqi6qeoVwf/view?usp=sharing"
-                            target="_blank" rel="noopener">“Cryptography Bill of Materials Generation and Consumption: A
-                        Mining Study From GitHub.”</a></li>
                     <li><strong>Presentation at ICSE 2026:</strong> <a
-                            href="https://drive.google.com/file/d/1aPivADA0sNbBMq_Enjwy1u36uGVVrw7t/view?usp=sharing"
+                            href="https://doi.org/10.1145/3744916.3787786"
                             target="_blank" rel="noopener">“Causal or Correlational? A Cohort Study on the Effects of
                         Code Smells on Class Change- and Fault-Proneness.”</a></li>
                 </ul>
@@ -1368,7 +1390,7 @@
             <article class="card role-card">
                 <div class="role-header">
                     <div class="role-icon"><i class="fa-solid fa-people-group"></i></div>
-                    <div class="card-title">Organizer</div>
+                    <div class="card-title">Chair/Organizer</div>
                 </div>
                 <ul class="role-list">
                     <li><span class="role-event">A-SPPI 2025</span><a class="mini-link"
@@ -1422,6 +1444,8 @@
                     <div class="card-title">Program Committee</div>
                 </div>
                 <ul class="role-list">
+				
+
                     <li><span class="role-event">RASE 2026</span><a class="mini-link"
                                                                     href="https://conf.researchr.org/home/ase-2026/rase-2026"
                                                                     target="_blank" rel="noopener"><i
@@ -1442,6 +1466,11 @@
                     <div class="card-title">Reviewer</div>
                 </div>
                 <ul class="role-list">
+                    <li><span class="role-event">IEEE Transactions on Software Engineering (TSE)</span><a
+                            class="mini-link" href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=32" target="_blank" rel="noopener"><i
+                            class="fa-solid fa-arrow-up-right-from-square"></i> Website</a></li>
+				
+				
                     <li><span class="role-event">ACM Transactions on Software Engineering and Methodology (TOSEM)</span><a
                             class="mini-link" href="https://dl.acm.org/journal/tosem" target="_blank" rel="noopener"><i
                             class="fa-solid fa-arrow-up-right-from-square"></i> Website</a></li>
@@ -1468,17 +1497,27 @@
             <article class="card teach-card span-6">
                 <div class="card-top">
                     <div class="card-title">Lecturing Activities</div>
-                    <span class="pill">2026</span>
+                    <span class="pill">2026 - Present</span>
                 </div>
                 <ul class="teach-list">
                     <li><strong>Enterprise Mobile Application Development</strong>Master's Degree in Computer Science,
                         University of Salerno.
                     </li>
+                </ul>
+            </article>
+			
+            <article class="card teach-card span-6">
+                <div class="card-top">
+                    <div class="card-title">Lecturing Activities</div>
+                    <span class="pill">2026</span>
+                </div>
+                <ul class="teach-list">
                     <li><strong>Information Systems for Public Administration and Digital Services for Citizens</strong>Master
                         (II level) in Information Technologies and Public Administration, University of Salerno.
                     </li>
                 </ul>
             </article>
+			
 
             <article class="card teach-card span-6">
                 <div class="card-top">
@@ -1559,11 +1598,13 @@
         'IST',
         'EASE',
         'SEAA',
+		'RASE',
         'MSR',
         'ICSME',
         'ESEM',
         'FSE',
-        'QUATIC'
+        'QUATIC',
+        'FDGTH'
     ];
 
     function venueRank(abbr) {
@@ -1572,6 +1613,24 @@
     }
 
     const PUB_DATA = [
+		{
+			type: 'conference',
+			venueAbbr: 'RASE',
+			year: 2026,
+			venueFull: 'Proceedings of the 1st International Workshop on Reliable and Trustworthy Automated Software Engineering',
+			title: 'Formal Analysis of Software Bills of Materials with Alloy',
+			authors: '<strong>Sabato Nocera</strong> and Giuseppe Scanniello.',
+			venue: '<em>International Workshop on Reliable and trustworthy Automated Software Engineering</em>. <a href="https://doi.org/10.1145/3820756.3844915" target="_blank" rel="noopener">10.1145/3820756.3844915</a> \u2014 <a href="https://drive.google.com/file/d/1Q9m2eJGLXOQx2nTTFoYQGl2o3E8oiHKL/view?usp=sharing" target="_blank" rel="noopener">Pre-print</a>.'
+		},
+		{
+			type: 'journal',
+			venueAbbr: 'FDGTH',
+			year: 2026,
+			venueFull: 'Frontiers in Digital Health',
+			title: 'High-Technology Telerehabilitation for the Treatment of Frail and Pre-Frail Patients: The TeleRiab4FRA Study Design and Protocol',
+			authors: 'Alessia Bramanti, Michele Ciccarelli, Albino Carrizzo, Placido Bramanti, Valeria Visco, Mariaconsiglia Calabrese, Marina Garofano, Maria Pia Di Palo, Colomba Pessolano, Simone Romano, <strong>Sabato Nocera</strong>, Giuseppe Scanniello, and Carmine Vecchione.',
+			venue: '<em>Frontiers in Digital Health</em>. <a href="https://doi.org/10.3389/fdgth.2026.1929955" target="_blank" rel="noopener">10.3389/fdgth.2026.1929955</a>.'
+		},
         {
             type: 'journal',
             venueAbbr: 'TOSEM',
@@ -1625,7 +1684,7 @@
             venueFull: 'IEEE/ACM International Conference on Software Engineering',
             title: 'Causal or Correlational? A Cohort Study on the Effects of Code Smells on Class Change- and Fault-Proneness',
             authors: '<strong>Sabato Nocera</strong>, Sira Vegas, Giuseppe Scanniello, Massimiliano Di Penta, and Natalia Juristo.',
-            venue: '<em>IEEE/ACM International Conference on Software Engineering</em>. <a href="https://doi.org/10.1145/3744916.3787786" target="_blank" rel="noopener">10.1145/3744916.3787786</a> \u2014 <a href="https://drive.google.com/file/d/1aPivADA0sNbBMq_Enjwy1u36uGVVrw7t/view?usp=sharing" target="_blank" rel="noopener">Pre-print</a>.'
+            venue: '<em>IEEE/ACM International Conference on Software Engineering</em>. <a href="https://doi.org/10.1145/3744916.3787786" target="_blank" rel="noopener">10.1145/3744916.3787786</a>.'
         },
         {
             type: 'conference',
@@ -1634,7 +1693,7 @@
             venueFull: 'IEEE/ACM International Conference on Automated Software Engineering',
             title: 'On the Effects of Customized Configurations of Static Code Analysis Tools: A Prospective Cohort Study of SonarQube Cloud',
             authors: '<strong>Sabato Nocera</strong>, Sira Vegas, and Giuseppe Scanniello.',
-            venue: '<em>IEEE/ACM International Conference on Automated Software Engineering</em> \u2014 <a href="https://drive.google.com/file/d/1YB134AA-umnRULn9fmt9_brQ1AtZRqRc/view?usp=sharing" target="_blank" rel="noopener">Pre-print</a>.'
+            venue: '<em>IEEE/ACM International Conference on Automated Software Engineering</em>. <a href="https://doi.org/10.1145/3832783.3834408" target="_blank" rel="noopener">10.1145/3832783.3834408</a> \u2014 <a href="https://drive.google.com/file/d/1YB134AA-umnRULn9fmt9_brQ1AtZRqRc/view?usp=sharing" target="_blank" rel="noopener">Pre-print</a>.'
         },
         {
             type: 'conference',
@@ -1643,7 +1702,7 @@
             venueFull: 'IEEE/ACM International Conference on Automated Software Engineering',
             title: 'AIRBORNE: Augmented Fine-Grained Software Bill of Materials Generator for Stack Overflow',
             authors: '<strong>Sabato Nocera</strong>, Massimiliano Di Penta, Simone Romano, and Giuseppe Scanniello.',
-            venue: '<em>IEEE/ACM International Conference on Automated Software Engineering</em> \u2014 <a href="https://drive.google.com/file/d/1aizqbF3HZJ5GOLSfMnVZvk8KX5m368h8/view?usp=sharing" target="_blank" rel="noopener">Pre-print</a>.'
+            venue: '<em>IEEE/ACM International Conference on Automated Software Engineering</em>. <a href="https://doi.org/10.1145/3832783.3834631" target="_blank" rel="noopener">10.1145/3832783.3834631</a> \u2014 <a href="https://drive.google.com/file/d/1aizqbF3HZJ5GOLSfMnVZvk8KX5m368h8/view?usp=sharing" target="_blank" rel="noopener">Pre-print</a>.'
         },
         {
             type: 'conference',
@@ -1652,7 +1711,7 @@
             venueFull: 'International Conference on Evaluation and Assessment in Software Engineering',
             title: 'Are AIBOMs Welcome? On the Acceptance and Perception of Artificial Intelligence Bills of Materials on Hugging Face',
             authors: '<strong>Sabato Nocera</strong>, Simone Romano, Massimiliano Di Penta, Riccardo D\u2019Avino, and Giuseppe Scanniello.',
-            venue: '<em>International Conference on Evaluation and Assessment in Software Engineering</em> \u2014 <a href="https://drive.google.com/file/d/12TAPmIUnx9h5jUp2ZB3BnSGs77tDwria/view?usp=sharing" target="_blank" rel="noopener">Pre-print</a>.'
+            venue: '<em>International Conference on Evaluation and Assessment in Software Engineering</em>. <a href="https://doi.org/10.1145/3816483.3816590" target="_blank" rel="noopener">10.1145/3816483.3816590</a> \u2014 <a href="https://drive.google.com/file/d/12TAPmIUnx9h5jUp2ZB3BnSGs77tDwria/view?usp=sharing" target="_blank" rel="noopener">Pre-print</a>.'
         },
         {
             type: 'conference',
@@ -1660,8 +1719,9 @@
             year: 2026,
             venueFull: 'Euromicro Conference on Software Engineering and Advanced Applications',
             title: 'Cryptography Bill of Materials Generation and Consumption: A Mining Study From GitHub',
+            award: 'Outstanding Paper Award',
             authors: '<strong>Sabato Nocera</strong> and Giuseppe Scanniello.',
-            venue: '<em>Euromicro Conference on Software Engineering and Advanced Applications</em> \u2014 <a href="https://drive.google.com/file/d/11QlGuuKVBzxQKK0rpcC-VIJqi6qeoVwf/view?usp=sharing" target="_blank" rel="noopener">Pre-print</a>.'
+            venue: '<em>Euromicro Conference on Software Engineering and Advanced Applications</em>. <a href="https://doi.org/10.1007/978-3-032-36587-3_33" target="_blank" rel="noopener">10.1007/978-3-032-36587-3_33</a> \u2014 <a href="https://drive.google.com/file/d/11QlGuuKVBzxQKK0rpcC-VIJqi6qeoVwf/view?usp=sharing" target="_blank" rel="noopener">Pre-print</a>.'
         },
         {
             type: 'conference',
@@ -1689,7 +1749,7 @@
             venueFull: 'IEEE/ACM International Conference on Mining Software Repositories',
             title: 'Software Composition Analysis and Supply Chain Security in Apache Projects: An Empirical Study',
             authors: '<strong>Sabato Nocera</strong>, Sira Vegas, Giuseppe Scanniello, and Natalia Juristo.',
-            venue: '<em>IEEE/ACM International Conference on Mining Software Repositories</em>. <a href="https://doi.org/10.1109/MSR66628.2025.00027" target="_blank" rel="noopener">10.1109/MSR66628.2025.00027</a>.'
+            venue: '<em>IEEE/ACM International Conference on Mining Software Repositories</em>. <a href="https://doi.org/10.1109/MSR66628.2025.00027" target="_blank" rel="noopener">10.1109/MSR66628.2025.00027</a> \u2014 <a href="https://drive.google.com/file/d/1by6FU3bvtWUcCTEReM-tDbgUwaR06Tbc/view?usp=sharing" target="_blank" rel="noopener">Pre-print</a>.'
         },
         {
             type: 'conference',
@@ -1822,7 +1882,7 @@
     ];
 
     (function () {
-        const PAGE_SIZE = 9;
+        const PAGE_SIZE = 11;
         let state = {query: '', type: 'all', venue: 'all', year: 'all', sort: 'newest', page: 1};
 
         const el = {
@@ -1914,11 +1974,15 @@
                 const typeLabel = p.type === 'journal' ? 'Journal' : 'Conference';
                 const typeIcon = p.type === 'journal' ? 'fa-book-open' : 'fa-chalkboard-user';
                 const title = highlight(escapeHtml(p.title), q);
+                const awardBadge = p.award
+                    ? `<span class="pub-award-badge" title="${escapeHtml(p.award)}"><i class="fa-solid fa-trophy"></i>${escapeHtml(p.award)}</span>`
+                    : '';
                 return `
         <article class="pub-entry">
           <div class="pub-head">
             <div class="pub-title"><span>${title}</span></div>
             <div class="pub-badges">
+              ${awardBadge}
               <span class="pub-type-tag ${p.type}"><i class="fa-solid ${typeIcon}"></i>${typeLabel}</span>
               <div class="pub-badge">${p.venueAbbr} \u00b7 ${p.year}</div>
             </div>
