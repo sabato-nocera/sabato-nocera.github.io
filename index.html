@@ -34,6 +34,9 @@
             --ease: cubic-bezier(.4, 0, .2, 1);
             --dur: 0.26s;
             --max: 1120px;
+            /* Maximum height of the lists inside the Services boxes (Chair/Organizer, Web Chair, ...).
+               Change this value to show more or fewer entries before the scrollbar appears. */
+            --role-list-max-h: 14rem;
         }
 
         * {
@@ -567,6 +570,30 @@
             list-style: none;
             display: grid;
             gap: 0.65rem;
+            /* Maximum height: when there are too many entries, the list scrolls */
+            max-height: var(--role-list-max-h);
+            overflow-y: auto;
+            overflow-x: hidden;
+            padding-right: 0.4rem;
+            scrollbar-width: thin;
+            scrollbar-color: var(--primary-edge) transparent;
+        }
+
+        .role-list::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        .role-list::-webkit-scrollbar-track {
+            background: transparent;
+        }
+
+        .role-list::-webkit-scrollbar-thumb {
+            background: var(--primary-edge);
+            border-radius: 999px;
+        }
+
+        .role-list::-webkit-scrollbar-thumb:hover {
+            background: var(--primary);
         }
 
         .role-list li {
@@ -1276,14 +1303,14 @@
                 <div class="news-title"><i class="fa-solid fa-bullhorn"></i> News</div>
                 <ul class="news-list">
                     <li><strong>Accepted at ASE 2026:</strong> <a
-                            href="https://drive.google.com/file/d/1YB134AA-umnRULn9fmt9_brQ1AtZRqRc/view?usp=sharing"
+                            href="https://doi.org/10.1145/3832783.3834408"
                             target="_blank" rel="noopener">“On the Effects of Customized
                         Configurations of Static Code Analysis Tools: A Prospective Cohort Study of SonarQube
                         Cloud”</a> <i>(Research Papers) ~</i> <a
-                            href="https://drive.google.com/file/d/1aizqbF3HZJ5GOLSfMnVZvk8KX5m368h8/view?usp=sharing"
+                            href="https://doi.org/10.1145/3832783.3834631"
                             target="_blank" rel="noopener">“AIRBORNE: Augmented fIne-grained
                         softwaRe Bill Of mateRials geNerator for stack ovErflow”</a> <i>(Tools and Datasets) ~</i> <a
-                            href="https://drive.google.com/file/d/1Q9m2eJGLXOQx2nTTFoYQGl2o3E8oiHKL/view?usp=sharing"
+                            href="https://doi.org/10.1145/3820756.3844915"
                             target="_blank" rel="noopener">“Formal Analysis of Software Bills of Materials with Alloy”</a> <i>(RASE Workshop)</i>.</li>
                     <li><strong>Outstanding Paper Award at SEAA 2026:</strong> <a
                             href="https://drive.google.com/file/d/11QlGuuKVBzxQKK0rpcC-VIJqi6qeoVwf/view?usp=sharing"
@@ -1444,7 +1471,20 @@
                     <div class="card-title">Program Committee</div>
                 </div>
                 <ul class="role-list">
-				
+				<li><span class="role-event">EASE 2027 (Short Papers and Emerging Results) </span><a class="mini-link"
+                                                        href="https://conf.researchr.org/track/ease-2027/ease-2027-short-papers-and-emerging-results"
+                                                        target="_blank" rel="noopener"><i
+                    class="fa-solid fa-arrow-up-right-from-square"></i> Website</a></li>
+
+<li><span class="role-event">WSESE 2027</span><a class="mini-link"
+                                                        href="https://conf.researchr.org/home/icse-2027/wsese-2027"
+                                                        target="_blank" rel="noopener"><i
+                    class="fa-solid fa-arrow-up-right-from-square"></i> Website</a></li>
+
+<li><span class="role-event">SQA4AI 2027</span><a class="mini-link"
+                                                        href="https://sqa4ai-ws.github.io/2027/index.html"
+                                                        target="_blank" rel="noopener"><i
+                    class="fa-solid fa-arrow-up-right-from-square"></i> Website</a></li>
 
                     <li><span class="role-event">RASE 2026</span><a class="mini-link"
                                                                     href="https://conf.researchr.org/home/ase-2026/rase-2026"
@@ -1476,6 +1516,16 @@
                             class="fa-solid fa-arrow-up-right-from-square"></i> Website</a></li>
                     <li><span class="role-event">Empirical Software Engineering (EMSE)</span><a class="mini-link"
                                                                                                 href="https://link.springer.com/journal/10664"
+                                                                                                target="_blank"
+                                                                                                rel="noopener"><i
+                            class="fa-solid fa-arrow-up-right-from-square"></i> Website</a></li>
+                    <li><span class="role-event">Information and Software Technology  (IST)</span><a class="mini-link"
+                                                                                                href="https://www.sciencedirect.com/journal/information-and-software-technology"
+                                                                                                target="_blank"
+                                                                                                rel="noopener"><i
+                            class="fa-solid fa-arrow-up-right-from-square"></i> Website</a></li>
+                    <li><span class="role-event">Journal of Software: Evolution and Process (JSEP)</span><a class="mini-link"
+                                                                                                href="https://onlinelibrary.wiley.com/journal/20477481"
                                                                                                 target="_blank"
                                                                                                 rel="noopener"><i
                             class="fa-solid fa-arrow-up-right-from-square"></i> Website</a></li>
