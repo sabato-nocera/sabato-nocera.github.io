@@ -613,6 +613,35 @@
             line-height: 1.45;
         }
 
+        .role-list li > div > .role-event {
+            display: block;
+        }
+
+        /* Secondary line under an entry (e.g. the degree programme of a course) */
+        .role-sub {
+            display: block;
+            color: var(--text-muted);
+            font-size: 0.88rem;
+            line-height: 1.5;
+            margin-top: 0.1rem;
+        }
+
+        /* Year label on the right of an entry (used in the Teaching boxes) */
+        .role-year {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.35rem;
+            padding: 0.35rem 0.66rem;
+            border-radius: 999px;
+            background: var(--primary-pale);
+            border: 1px solid var(--primary-edge);
+            color: var(--primary-deep);
+            font-size: 0.84rem;
+            font-weight: 800;
+            white-space: nowrap;
+            flex-shrink: 0;
+        }
+
         .mini-link {
             display: inline-flex;
             align-items: center;
@@ -756,6 +785,11 @@
 
         .pub-venue a:hover {
             border-bottom-color: currentColor;
+        }
+
+        .pub-venue .pdf-icon {
+            color: #c0392b;
+            margin-right: 0.3rem;
         }
 
         .pub-intro {
@@ -1509,8 +1543,8 @@
                     <li><span class="role-event">IEEE Transactions on Software Engineering (TSE)</span><a
                             class="mini-link" href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=32" target="_blank" rel="noopener"><i
                             class="fa-solid fa-arrow-up-right-from-square"></i> Website</a></li>
-				
-				
+
+
                     <li><span class="role-event">ACM Transactions on Software Engineering and Methodology (TOSEM)</span><a
                             class="mini-link" href="https://dl.acm.org/journal/tosem" target="_blank" rel="noopener"><i
                             class="fa-solid fa-arrow-up-right-from-square"></i> Website</a></li>
@@ -1543,40 +1577,42 @@
 <section id="teaching" class="alt" aria-labelledby="teach-h">
     <div class="wrap">
         <h2 class="sec-title" id="teach-h">Teaching</h2>
-        <div class="grid-12 reveal">
-            <article class="card teach-card span-6">
-                <div class="card-top">
+        <div class="service-grid reveal">
+            <article class="card role-card">
+                <div class="role-header">
+                    <div class="role-icon"><i class="fa-solid fa-chalkboard-user"></i></div>
                     <div class="card-title">Lecturing Activities</div>
-                    <span class="pill">2026 - Present</span>
                 </div>
-                <ul class="teach-list">
-                    <li><strong>Enterprise Mobile Application Development</strong>Master's Degree in Computer Science,
-                        University of Salerno.
+                <ul class="role-list">
+                    <li>
+                        <div>
+                            <span class="role-event">Enterprise Mobile Application Development</span>
+                            <span class="role-sub">Master's Degree in Computer Science, University of Salerno.</span>
+                        </div>
+                        <span class="role-year"><i class="fa-regular fa-calendar"></i> 2026 – Present</span>
+                    </li>
+                    <li>
+                        <div>
+                            <span class="role-event">Information Systems for Public Administration and Digital Services for Citizens</span>
+                            <span class="role-sub">Master (II level) in Information Technologies and Public Administration, University of Salerno.</span>
+                        </div>
+                        <span class="role-year"><i class="fa-regular fa-calendar"></i> 2026</span>
                     </li>
                 </ul>
             </article>
-			
-            <article class="card teach-card span-6">
-                <div class="card-top">
-                    <div class="card-title">Lecturing Activities</div>
-                    <span class="pill">2026</span>
-                </div>
-                <ul class="teach-list">
-                    <li><strong>Information Systems for Public Administration and Digital Services for Citizens</strong>Master
-                        (II level) in Information Technologies and Public Administration, University of Salerno.
-                    </li>
-                </ul>
-            </article>
-			
 
-            <article class="card teach-card span-6">
-                <div class="card-top">
+            <article class="card role-card">
+                <div class="role-header">
+                    <div class="role-icon"><i class="fa-solid fa-user-graduate"></i></div>
                     <div class="card-title">Teaching Assistance</div>
-                    <span class="pill">2021–2025</span>
                 </div>
-                <ul class="teach-list">
-                    <li><strong>Web Software Technologies</strong>Bachelor's Degree in Computer Science, University of
-                        Salerno.
+                <ul class="role-list">
+                    <li>
+                        <div>
+                            <span class="role-event">Web Software Technologies</span>
+                            <span class="role-sub">Bachelor's Degree in Computer Science, University of Salerno.</span>
+                        </div>
+                        <span class="role-year"><i class="fa-regular fa-calendar"></i> 2021 – 2025</span>
                     </li>
                 </ul>
             </article>
@@ -1670,7 +1706,7 @@
 			venueFull: 'Proceedings of the 1st International Workshop on Reliable and Trustworthy Automated Software Engineering',
 			title: 'Formal Analysis of Software Bills of Materials with Alloy',
 			authors: '<strong>Sabato Nocera</strong> and Giuseppe Scanniello.',
-			venue: '<em>International Workshop on Reliable and trustworthy Automated Software Engineering</em>. <a href="https://doi.org/10.1145/3820756.3844915" target="_blank" rel="noopener">10.1145/3820756.3844915</a> \u2014 <a href="https://drive.google.com/file/d/1Q9m2eJGLXOQx2nTTFoYQGl2o3E8oiHKL/view?usp=sharing" target="_blank" rel="noopener">Pre-print</a>.'
+			venue: '<em>International Workshop on Reliable and trustworthy Automated Software Engineering</em>. <a href="https://doi.org/10.1145/3820756.3844915" target="_blank" rel="noopener">10.1145/3820756.3844915</a>.'
 		},
 		{
 			type: 'journal',
@@ -1710,7 +1746,7 @@
         },
         {
             type: 'journal', venueAbbr: 'IST', year: 2025, venueFull: 'Information and Software Technology',
-            title: 'An Empirical Study on the Accuracy of GitHub\u2019s Dependency Graph and the Nature of Its Inaccuracy',
+            title: 'An Empirical Study on the Accuracy of GitHub’s Dependency Graph and the Nature of Its Inaccuracy',
             authors: 'Daniele Bifolco, Simone Romano, <strong>Sabato Nocera</strong>, Rita Francese, Giuseppe Scanniello, and Massimiliano Di Penta.',
             venue: '<em>Information and Software Technology</em>. <a href="https://doi.org/10.1016/j.infsof.2025.107854" target="_blank" rel="noopener">10.1016/j.infsof.2025.107854</a>.'
         },
@@ -1743,7 +1779,7 @@
             venueFull: 'IEEE/ACM International Conference on Automated Software Engineering',
             title: 'On the Effects of Customized Configurations of Static Code Analysis Tools: A Prospective Cohort Study of SonarQube Cloud',
             authors: '<strong>Sabato Nocera</strong>, Sira Vegas, and Giuseppe Scanniello.',
-            venue: '<em>IEEE/ACM International Conference on Automated Software Engineering</em>. <a href="https://doi.org/10.1145/3832783.3834408" target="_blank" rel="noopener">10.1145/3832783.3834408</a> \u2014 <a href="https://drive.google.com/file/d/1YB134AA-umnRULn9fmt9_brQ1AtZRqRc/view?usp=sharing" target="_blank" rel="noopener">Pre-print</a>.'
+            venue: '<em>IEEE/ACM International Conference on Automated Software Engineering</em>. <a href="https://doi.org/10.1145/3832783.3834408" target="_blank" rel="noopener">10.1145/3832783.3834408</a>.'
         },
         {
             type: 'conference',
@@ -1752,7 +1788,7 @@
             venueFull: 'IEEE/ACM International Conference on Automated Software Engineering',
             title: 'AIRBORNE: Augmented Fine-Grained Software Bill of Materials Generator for Stack Overflow',
             authors: '<strong>Sabato Nocera</strong>, Massimiliano Di Penta, Simone Romano, and Giuseppe Scanniello.',
-            venue: '<em>IEEE/ACM International Conference on Automated Software Engineering</em>. <a href="https://doi.org/10.1145/3832783.3834631" target="_blank" rel="noopener">10.1145/3832783.3834631</a> \u2014 <a href="https://drive.google.com/file/d/1aizqbF3HZJ5GOLSfMnVZvk8KX5m368h8/view?usp=sharing" target="_blank" rel="noopener">Pre-print</a>.'
+            venue: '<em>IEEE/ACM International Conference on Automated Software Engineering</em>. <a href="https://doi.org/10.1145/3832783.3834631" target="_blank" rel="noopener">10.1145/3832783.3834631</a>.'
         },
         {
             type: 'conference',
@@ -1760,8 +1796,8 @@
             year: 2026,
             venueFull: 'International Conference on Evaluation and Assessment in Software Engineering',
             title: 'Are AIBOMs Welcome? On the Acceptance and Perception of Artificial Intelligence Bills of Materials on Hugging Face',
-            authors: '<strong>Sabato Nocera</strong>, Simone Romano, Massimiliano Di Penta, Riccardo D\u2019Avino, and Giuseppe Scanniello.',
-            venue: '<em>International Conference on Evaluation and Assessment in Software Engineering</em>. <a href="https://doi.org/10.1145/3816483.3816590" target="_blank" rel="noopener">10.1145/3816483.3816590</a> \u2014 <a href="https://drive.google.com/file/d/12TAPmIUnx9h5jUp2ZB3BnSGs77tDwria/view?usp=sharing" target="_blank" rel="noopener">Pre-print</a>.'
+            authors: '<strong>Sabato Nocera</strong>, Simone Romano, Massimiliano Di Penta, Riccardo D’Avino, and Giuseppe Scanniello.',
+            venue: '<em>International Conference on Evaluation and Assessment in Software Engineering</em>. <a href="https://doi.org/10.1145/3816483.3816590" target="_blank" rel="noopener">10.1145/3816483.3816590</a> — <a href="https://drive.google.com/file/d/12TAPmIUnx9h5jUp2ZB3BnSGs77tDwria/view?usp=sharing" target="_blank" rel="noopener">Pre-print</a>.'
         },
         {
             type: 'conference',
@@ -1771,7 +1807,7 @@
             title: 'Cryptography Bill of Materials Generation and Consumption: A Mining Study From GitHub',
             award: 'Outstanding Paper Award',
             authors: '<strong>Sabato Nocera</strong> and Giuseppe Scanniello.',
-            venue: '<em>Euromicro Conference on Software Engineering and Advanced Applications</em>. <a href="https://doi.org/10.1007/978-3-032-36587-3_33" target="_blank" rel="noopener">10.1007/978-3-032-36587-3_33</a> \u2014 <a href="https://drive.google.com/file/d/11QlGuuKVBzxQKK0rpcC-VIJqi6qeoVwf/view?usp=sharing" target="_blank" rel="noopener">Pre-print</a>.'
+            venue: '<em>Euromicro Conference on Software Engineering and Advanced Applications</em>. <a href="https://doi.org/10.1007/978-3-032-36587-3_33" target="_blank" rel="noopener">10.1007/978-3-032-36587-3_33</a> — <a href="https://drive.google.com/file/d/11QlGuuKVBzxQKK0rpcC-VIJqi6qeoVwf/view?usp=sharing" target="_blank" rel="noopener">Pre-print</a>.'
         },
         {
             type: 'conference',
@@ -1779,7 +1815,7 @@
             year: 2026,
             venueFull: 'IEEE/ACM International Conference on Mining Software Repositories',
             title: 'Stop Comparing Apples and Oranges: Matching for Better Results in Mining Software Repositories Studies',
-            authors: '<strong>Sabato Nocera</strong>, Nyyti Saarim\u00e4ki, Valentina Lenarduzzi, Davide Taibi, and Sira Vegas.',
+            authors: '<strong>Sabato Nocera</strong>, Nyyti Saarimäki, Valentina Lenarduzzi, Davide Taibi, and Sira Vegas.',
             venue: '<em>IEEE/ACM International Conference on Mining Software Repositories</em>. <a href="https://doi.org/10.1145/3793302.3793378" target="_blank" rel="noopener">10.1145/3793302.3793378</a>.'
         },
         {
@@ -1799,7 +1835,7 @@
             venueFull: 'IEEE/ACM International Conference on Mining Software Repositories',
             title: 'Software Composition Analysis and Supply Chain Security in Apache Projects: An Empirical Study',
             authors: '<strong>Sabato Nocera</strong>, Sira Vegas, Giuseppe Scanniello, and Natalia Juristo.',
-            venue: '<em>IEEE/ACM International Conference on Mining Software Repositories</em>. <a href="https://doi.org/10.1109/MSR66628.2025.00027" target="_blank" rel="noopener">10.1109/MSR66628.2025.00027</a> \u2014 <a href="https://drive.google.com/file/d/1by6FU3bvtWUcCTEReM-tDbgUwaR06Tbc/view?usp=sharing" target="_blank" rel="noopener">Pre-print</a>.'
+            venue: '<em>IEEE/ACM International Conference on Mining Software Repositories</em>. <a href="https://doi.org/10.1109/MSR66628.2025.00027" target="_blank" rel="noopener">10.1109/MSR66628.2025.00027</a> — <a href="https://drive.google.com/file/d/1by6FU3bvtWUcCTEReM-tDbgUwaR06Tbc/view?usp=sharing" target="_blank" rel="noopener">Pre-print</a>.'
         },
         {
             type: 'conference',
@@ -1807,6 +1843,7 @@
             year: 2025,
             venueFull: 'ACM/IEEE International Symposium on Empirical Software Engineering and Measurement',
             title: 'Dealing With SonarQube Cloud: Initial Results From a Mining Software Repository Study',
+            noPdf: true,
             authors: '<strong>Sabato Nocera</strong>, Davide Fucci, and Giuseppe Scanniello.',
             venue: '<em>ACM/IEEE International Symposium on Empirical Software Engineering and Measurement</em>. <a href="https://doi.org/10.1109/ESEM64174.2025.00035" target="_blank" rel="noopener">10.1109/ESEM64174.2025.00035</a>.'
         },
@@ -1834,7 +1871,7 @@
             year: 2025,
             venueFull: 'International Conference on Evaluation and Assessment in Software Engineering',
             title: 'ALOHA: A(IBOM) Tool Generator for Hugging Face',
-            authors: 'Riccardo D\u2019Avino, <strong>Sabato Nocera</strong>, Daniele Bifolco, Federica Pepe, Massimiliano Di Penta, and Giuseppe Scanniello.',
+            authors: 'Riccardo D’Avino, <strong>Sabato Nocera</strong>, Daniele Bifolco, Federica Pepe, Massimiliano Di Penta, and Giuseppe Scanniello.',
             venue: '<em>International Conference on Evaluation and Assessment in Software Engineering</em>. <a href="https://doi.org/10.1145/3756681.3756998" target="_blank" rel="noopener">10.1145/3756681.3756998</a>.'
         },
 
@@ -1852,7 +1889,8 @@
             venueAbbr: 'ICSME',
             year: 2024,
             venueFull: 'IEEE International Conference on Software Maintenance and Evolution',
-            title: 'If It\u2019s Not SBOM, Then What? How Italian Practitioners Manage the Software Supply Chain',
+            title: 'If It’s Not SBOM, Then What? How Italian Practitioners Manage the Software Supply Chain',
+            noPdf: true,
             authors: '<strong>Sabato Nocera</strong>, Massimiliano Di Penta, Rita Francese, Simone Romano, and Giuseppe Scanniello.',
             venue: '<em>IEEE International Conference on Software Maintenance and Evolution</em>. <a href="https://doi.org/10.1109/ICSME58944.2024.00077" target="_blank" rel="noopener">10.1109/ICSME58944.2024.00077</a>.'
         },
@@ -1862,6 +1900,7 @@
             year: 2024,
             venueFull: 'International Conference on the Quality of Information and Communications Technology',
             title: 'Do Static Analysis Tools Improve Awareness and Attitude Toward Secure Software Development?',
+            noPdf: true,
             authors: '<strong>Sabato Nocera</strong>, Simone Romano, Dario Di Nucci, Rita Francese, Fabio Palomba, and Giuseppe Scanniello.',
             venue: '<em>International Conference on the Quality of Information and Communications Technology</em>. <a href="https://doi.org/10.1007/978-3-031-70245-7_28" target="_blank" rel="noopener">10.1007/978-3-031-70245-7_28</a>.'
         },
@@ -1870,7 +1909,7 @@
             venueAbbr: 'EASE',
             year: 2024,
             venueFull: 'International Conference on Evaluation and Assessment in Software Engineering',
-            title: 'On the Accuracy of GitHub\u2019s Dependency Graph',
+            title: 'On the Accuracy of GitHub’s Dependency Graph',
             authors: 'Daniele Bifolco, <strong>Sabato Nocera</strong>, Simone Romano, Massimiliano Di Penta, Rita Francese, and Giuseppe Scanniello.',
             venue: '<em>International Conference on Evaluation and Assessment in Software Engineering</em>. <a href="https://doi.org/10.1145/3661167.3661175" target="_blank" rel="noopener">10.1145/3661167.3661175</a>.'
         },
@@ -1890,6 +1929,7 @@
             year: 2023,
             venueFull: 'IEEE International Conference on Software Maintenance and Evolution',
             title: 'Software Bill of Materials Adoption: A Mining Study From GitHub',
+            extendedIn: '10.1016/j.jss.2025.112540',
             authors: '<strong>Sabato Nocera</strong>, Simone Romano, Massimiliano Di Penta, Rita Francese, and Giuseppe Scanniello.',
             venue: '<em>IEEE International Conference on Software Maintenance and Evolution</em>. <a href="https://doi.org/10.1109/ICSME58846.2023.00016" target="_blank" rel="noopener">10.1109/ICSME58846.2023.00016</a>.'
         },
@@ -1899,6 +1939,7 @@
             year: 2023,
             venueFull: 'IEEE/ACM International Conference on Software Engineering: Software Engineering Education and Training',
             title: 'Training for Security: Planning the Use of a SAT in the Development Pipeline of Web Apps',
+            extendedIn: '10.1145/3639474.3640073',
             authors: '<strong>Sabato Nocera</strong>, Simone Romano, Rita Francese, and Giuseppe Scanniello.',
             venue: '<em>IEEE/ACM International Conference on Software Engineering: Software Engineering Education and Training</em>. <a href="https://doi.org/10.1109/ICSE-SEET58685.2023.00010" target="_blank" rel="noopener">10.1109/ICSE-SEET58685.2023.00010</a>.'
         },
@@ -1917,6 +1958,7 @@
             year: 2023,
             venueFull: 'Euromicro Conference on Software Engineering and Advanced Applications',
             title: 'Managing Vulnerabilities in Software Projects: The Case of NTT Data',
+            noPdf: true,
             authors: '<strong>Sabato Nocera</strong>, Simone Romano, Rita Francese, Riccardo Burlon, and Giuseppe Scanniello.',
             venue: '<em>Euromicro Conference on Software Engineering and Advanced Applications</em>. <a href="https://doi.org/10.1109/SEAA60479.2023.00046" target="_blank" rel="noopener">10.1109/SEAA60479.2023.00046</a>.'
         },
@@ -1926,6 +1968,7 @@
             year: 2023,
             venueFull: 'Euromicro Conference on Software Engineering and Advanced Applications',
             title: 'A Large-Scale Fine-Grained Empirical Study on Security Concerns in Open-Source Software',
+            extendedIn: '10.1007/s10664-026-10890-8',
             authors: '<strong>Sabato Nocera</strong>, Simone Romano, Rita Francese, and Giuseppe Scanniello.',
             venue: '<em>Euromicro Conference on Software Engineering and Advanced Applications</em>. <a href="https://doi.org/10.1109/SEAA60479.2023.00069" target="_blank" rel="noopener">10.1109/SEAA60479.2023.00069</a>.'
         }
@@ -1969,6 +2012,55 @@
             return d.innerHTML;
         }
 
+        // Direct PDF links for publishers whose PDF URL cannot be derived from the DOI alone
+        // (IEEE needs the article number, Elsevier the PII, Frontiers the journal name).
+        // To add a new one: 'DOI': 'PDF URL'.
+        const PDF_LINKS = {
+            // IEEE
+            '10.1109/TSE.2026.3713676': 'https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11610900',
+            // Elsevier (JSS, IST)
+            '10.1016/j.jss.2026.112971': 'https://www.sciencedirect.com/science/article/pii/S0164121226002049/pdfft',
+            '10.1016/j.infsof.2025.107854': 'https://www.sciencedirect.com/science/article/pii/S0950584925001934/pdfft',
+            '10.1016/j.jss.2025.112540': 'https://www.sciencedirect.com/science/article/pii/S0164121225002092/pdfft',
+            '10.1016/j.jss.2024.112308': 'https://www.sciencedirect.com/science/article/pii/S0164121224003522/pdfft',
+            // Frontiers
+            '10.3389/fdgth.2026.1929955': 'https://www.frontiersin.org/journals/digital-health/articles/10.3389/fdgth.2026.1929955/pdf'
+        };
+
+        // Returns the direct PDF URL for a DOI (falls back to the DOI page if it cannot be derived)
+        function pdfUrlFromDoi(doi) {
+            if (PDF_LINKS[doi]) return PDF_LINKS[doi];
+            if (doi.startsWith('10.1145/')) return 'https://dl.acm.org/doi/pdf/' + doi;                // ACM
+            if (doi.startsWith('10.1007/')) return 'https://link.springer.com/content/pdf/' + doi + '.pdf'; // Springer
+            return 'https://doi.org/' + doi;
+        }
+
+        // Adds the PDF label to a publication:
+        //  - "Pre-print" links get a PDF icon;
+        //  - entries with `extendedIn: 'DOI'` get "See Extended Version", linking to the PDF of the extension;
+        //  - entries with `noPdf: true` get nothing;
+        //  - all the others get "Open Access", linking to the paper's PDF.
+        function addPdfIcons(p) {
+            const html = p.venue;
+            const pdfIcon = '<i class="fa-solid fa-file-pdf pdf-icon"></i>';
+            if (html.includes('>Pre-print</a>')) {
+                return html.replace(/>Pre-print<\/a>/g, '>' + pdfIcon + 'Pre-print</a>');
+            }
+            if (p.noPdf) return html;
+            let url, label;
+            if (p.extendedIn) {
+                url = pdfUrlFromDoi(p.extendedIn);
+                label = 'See Extended Version';
+            } else {
+                const doi = html.match(/href="https:\/\/doi\.org\/([^"]+)"/);
+                if (!doi) return html;
+                url = pdfUrlFromDoi(doi[1]);
+                label = 'Open Access';
+            }
+            const link = ' \u2014 <a href="' + url + '" target="_blank" rel="noopener">' + pdfIcon + label + '</a>';
+            return html.replace(/\.\s*$/, '') + link + '.';
+        }
+
         function getFiltered() {
             const q = state.query.trim().toLowerCase();
             let items = PUB_DATA.filter(p => {
@@ -2009,7 +2101,7 @@
             const q = state.query.trim();
 
             el.count.innerHTML = total
-                ? `Showing <strong>${start + 1}\u2013${Math.min(start + PAGE_SIZE, total)}</strong> of <strong>${total}</strong> publications`
+                ? `Showing <strong>${start + 1}–${Math.min(start + PAGE_SIZE, total)}</strong> of <strong>${total}</strong> publications`
                 : 'No publications found';
 
             renderChips();
@@ -2034,11 +2126,11 @@
             <div class="pub-badges">
               ${awardBadge}
               <span class="pub-type-tag ${p.type}"><i class="fa-solid ${typeIcon}"></i>${typeLabel}</span>
-              <div class="pub-badge">${p.venueAbbr} \u00b7 ${p.year}</div>
+              <div class="pub-badge">${p.venueAbbr} · ${p.year}</div>
             </div>
           </div>
           <div class="pub-authors">${p.authors}</div>
-          <div class="pub-venue">${p.venue}</div>
+          <div class="pub-venue">${addPdfIcons(p)}</div>
         </article>`;
             }).join('');
 
@@ -2053,7 +2145,7 @@
             });
             if (state.venue !== 'all') chips.push({key: 'venue', label: state.venue});
             if (state.year !== 'all') chips.push({key: 'year', label: state.year});
-            if (state.query.trim()) chips.push({key: 'query', label: `\u201c${state.query.trim()}\u201d`});
+            if (state.query.trim()) chips.push({key: 'query', label: `“${state.query.trim()}”`});
 
             el.chips.innerHTML = chips.map(c =>
                 `<span class="pub-chip">${escapeHtml(c.label)}<button type="button" data-clear="${c.key}" aria-label="Remove filter"><i class="fa-solid fa-xmark"></i></button></span>`
@@ -2093,7 +2185,7 @@
             const pages = new Set([1, totalPages, state.page, state.page - 1, state.page + 1]);
             let prev = 0;
             [...pages].filter(p => p >= 1 && p <= totalPages).sort((a, b) => a - b).forEach(p => {
-                if (prev && p - prev > 1) html += `<span class="pub-page-ellipsis">\u2026</span>`;
+                if (prev && p - prev > 1) html += `<span class="pub-page-ellipsis">…</span>`;
                 html += `<button class="pub-page-btn ${p === state.page ? 'active' : ''}" data-page="${p}">${p}</button>`;
                 prev = p;
             });
